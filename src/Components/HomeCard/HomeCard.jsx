@@ -22,7 +22,7 @@ export default function ActionAreaCard(props) {
           alt="green iguana"
         />
         <CardContent sx={{ mx: 4 }}>
-          <Typography fontFamily='poppins' gutterBottom variant="h4" color="white" component="div" marginTop={-2}>
+          <Typography fontFamily='poppins' gutterBottom variant="h5" color="white" component="div" marginTop={-2}>
             {props.Title}
           </Typography>
           <Typography fontFamily='poppins' variant="h6" color="yellow">

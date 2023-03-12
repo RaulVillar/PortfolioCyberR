@@ -8,8 +8,8 @@ export default function Footer() {
     return (
         <div>
             <footer>
-                <Grid display="flex" justifyContent="left" spacing={2} sx={{ mx: 8 }}>
-                    <p style={{ color: "white" }}>All rights reserved by Raúl Villar, 2023 ©</p>
+                <Grid display="flex" justifyContent="left" spacing={2} sx={{ mx: 8, mt: 5}}>
+                    <p style={{ color: "white" }}>All rights reserved to Raúl Villar, 2023 ©</p>
                     <IconButton
                     href="https://github.com/RaulVillar"
                     level="body3"
@@ -17,7 +17,7 @@ export default function Footer() {
                     sx={{
                         color: "white",
                         fontWeight: "md",
-                        "&:hover": { color: 'rgba(61, 29, 94, 1)' },
+                        "&:hover": { color: 'yellow' },
                     }}
                 ><GitHubIcon /></IconButton>
                 <IconButton
@@ -27,7 +27,7 @@ export default function Footer() {
                     sx={{
                         color: "white",
                         fontWeight: "md",
-                        "&:hover": { color: 'rgba(61, 29, 94, 1)' },
+                        "&:hover": { color: 'yellow' },
                     }}
                 ><LinkedInIcon /></IconButton>
                 <IconButton
@@ -37,7 +37,7 @@ export default function Footer() {
                     sx={{
                         color: "white",
                         fontWeight: "md",
-                        "&:hover": { color: 'rgba(61, 29, 94, 1)' },
+                        "&:hover": { color: 'yellow' },
                     }}
                 ><EmailIcon /></IconButton>
                 </Grid>

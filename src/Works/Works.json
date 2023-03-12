@@ -4,14 +4,14 @@
             "id": 1,
             "name": "Above The Stars",
             "technologies": "HTML5, CSS3, React.js.",
-            "description": "Above The Stars was a project created during the Factoria's F5 Hackathon and thought as a future science-fiction marketplace where clients would be able to buy and sell starts and constellations",
+            "description": "Above The Stars was a project created during the Factoria's F5 Hackathon and thought as a future science-fiction marketplace where clients would be able to buy and sell starts and constellations.",
             "image": "/Pictures/AboveTheStars.png"
         },
         {
             "id": 2,
             "name": "Cyber To Do List",
             "technologies": "HTML5, CSS3, React.js.",
-            "description": "Cyber To Do List is a cyberpunk-themed project where users are able to introduce, read and delete their tasks",
+            "description": "Cyber To Do List is a cyberpunk-themed project where users are able to introduce, read and delete their tasks.",
             "image": "/Pictures/CyberToDoList.jpg"
         },
         {
@@ -25,7 +25,7 @@
             "id": 4,
             "name": "Sakura Tarot",
             "technologies": "HTML5, CSS3, React.js.",
-            "description": "Sakura Tarot is a simple webpage project in which users are able to play an adivination game where they will get to know their past, present and future. ",
+            "description": "Sakura Tarot is a simple webpage project in which users are able to play an adivination game where they will get to know their past, present and future.",
             "image": "/Pictures/SakuraTarot.png"
         },
         {
