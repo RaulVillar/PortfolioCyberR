@@ -8,11 +8,30 @@ import IconButton from '@mui/material/IconButton';
 import Favorite from "@mui/icons-material/Favorite";
 import Box from "@mui/joy/Box";
 import GitHubIcon from '@mui/icons-material/GitHub';
+import Button from '@mui/material/Button';
+import Modal from '@mui/material/Modal';
+
+const style = {
+  position: 'absolute',
+  top: '50%',
+  left: '50%',
+  transform: 'translate(-50%, -50%)',
+  width: 400,
+  color: 'white',
+  bgcolor: 'rgba(84, 0, 0, 0.83)',
+  border: '2px solid white',
+  boxShadow: 24,
+  p: 4,
+};
 
 export default function ActionAreaCard(props) {
- 
+
+  const [open, setOpen] = React.useState(false);
+  const handleOpen = () => setOpen(true);
+  const handleClose = () => setOpen(false);
+
   return (
-    <Card spacing={4} elevation={3} sx={{ bgcolor: 'rgba(84, 0, 0, 0.83)', Height: 600, maxWidth: 400, mx: 2, borderRadius: '5%' }}>
+    <Card spacing={4} elevation={3} sx={{ bgcolor: 'rgba(84, 0, 0, 0.83)', Height: 600, maxWidth: 400, mx: 6, borderRadius: '5%' }}>
       <CardActionArea>
         <CardMedia sx={{ mx: 1, width: 320, p: 4, borderRadius: '50px' }}
           component="img"
@@ -22,41 +41,76 @@ export default function ActionAreaCard(props) {
           alt="green iguana"
         />
         <CardContent sx={{ mx: 4 }}>
-          <Typography fontFamily='poppins' gutterBottom variant="h5" color="white" component="div" marginTop={-2}>
+          <Typography fontFamily='ethno' gutterBottom variant="h6" color="white" component="div" marginTop={-2}>
             {props.Title}
           </Typography>
-          <Typography fontFamily='poppins' variant="h6" color="yellow">
-            {props.technologies}
-          </Typography>
-          <Typography fontFamily='poppins' variant="body1" color="white" height="15vh">
-            {props.description}
-          </Typography>
         </CardContent>
+        <Button sx={{ mx: 5, color: "yellow" }} onClick={handleOpen}>Show More</Button>
+        <Modal
+          open={open}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+          <Typography fontFamily='poppins' gutterBottom variant="h4" color="white" component="div" marginTop={-2}>
+            {props.Title}
+          </Typography>
+            <Typography fontFamily='poppins' variant="h6" color="yellow">
+              {"Made using:" + " " + props.technologies}
+            </Typography>
+            <Typography fontFamily='poppins' variant="body1" color="white" height="10vh">
+              {props.description}
+            </Typography>
+            <Box sx={{ display: "flex", gap: 1.5, mt: "auto", mx: 3 }}>
+              <IconButton
+                href="#dribbble-shot"
+                level="body3"
+                underline="none"
+                sx={{
+                  color: "white",
+                  fontWeight: "md",
+                  ml: "auto",
+                  "&:hover": { color: 'yellow' },
+                }}
+              ><Favorite /></IconButton>
+              <IconButton
+                href="#dribbble-shot"
+                level="body3"
+                underline="none"
+                sx={{
+                  color: "white",
+                  fontWeight: "md",
+                  "&:hover": { color: 'yellow' },
+                }}
+              ><GitHubIcon /></IconButton>
+            </Box>
+          </Box>
+        </Modal>
         <Box sx={{ display: "flex", gap: 1.5, mt: "auto", mx: 3 }}>
-        <IconButton
-          href="#dribbble-shot"
-          level="body3"
-          underline="none"
-          sx={{
-            color: "white",
-            fontWeight: "md",
-            ml: "auto",
-            "&:hover": { color: 'yellow' },
-          }}
-        ><Favorite /></IconButton>
-        <IconButton
-          href="#dribbble-shot"
-          level="body3"
-          underline="none"
-          sx={{
-            color: "white",
-            fontWeight: "md",
-            "&:hover": { color: 'yellow' },
-          }}
-        ><GitHubIcon /></IconButton>
-      </Box>
+          <IconButton
+            href="#dribbble-shot"
+            level="body3"
+            underline="none"
+            sx={{
+              color: "white",
+              fontWeight: "md",
+              ml: "auto",
+              "&:hover": { color: 'yellow' },
+            }}
+          ><Favorite /></IconButton>
+          <IconButton
+            href="#dribbble-shot"
+            level="body3"
+            underline="none"
+            sx={{
+              color: "white",
+              fontWeight: "md",
+              "&:hover": { color: 'yellow' },
+            }}
+          ><GitHubIcon /></IconButton>
+        </Box>
       </CardActionArea>
-      
     </Card>
   );
 }

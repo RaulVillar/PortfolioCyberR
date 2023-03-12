@@ -30,7 +30,7 @@
         },
         {
             "id": 5,
-            "name": "Tenebris Tattoo Studio",
+            "name": "Tenebris Tattoo",
             "technologies": "HTML5, CSS3",
             "description": "Tennebris Tattoo Studio was one of my first approaches to programming, it is simply a replica from an official template, an exercise of HTML and CSS.",
             "image": "/Pictures/TenebrisStudio.jpg"
