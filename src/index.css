@@ -3,6 +3,11 @@
   src: url(../src/Assets/Fonts/ethnocentric\ rg.otf);
 }
 
+@font-face {
+  font-family: "Alien";
+  src: url(../src/Assets/Fonts/AlienWorld.ttf);
+}
+
 * {
   font-family: "Ethno";
   padding: 0;

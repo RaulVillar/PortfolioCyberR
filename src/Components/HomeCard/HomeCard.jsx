@@ -75,7 +75,7 @@ export default function ActionAreaCard(props) {
                 }}
               ><Favorite /></IconButton>
               <IconButton
-                href="#dribbble-shot"
+                href="https://github.com/RaulVillar"
                 level="body3"
                 underline="none"
                 sx={{
@@ -100,7 +100,7 @@ export default function ActionAreaCard(props) {
             }}
           ><Favorite /></IconButton>
           <IconButton
-            href="#dribbble-shot"
+            href="https://github.com/RaulVillar"
             level="body3"
             underline="none"
             sx={{

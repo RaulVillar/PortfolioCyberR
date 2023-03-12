@@ -9,13 +9,13 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container'
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
-import AdbIcon from '@mui/icons-material/Adb';
+
 
 const pages = ['Home', 'About Me', 'Contact'];
 
 export default function Header() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
-  
+
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
   };
@@ -24,12 +24,10 @@ export default function Header() {
     setAnchorElNav(null);
   };
 
-
   return (
     <AppBar position="static" style={{ background: 'transparent', boxShadow: 'none' }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
           <Typography
             variant="h6"
             noWrap
@@ -38,15 +36,15 @@ export default function Header() {
             sx={{
               mr: 2,
               display: { xs: 'none', md: 'flex' },
-              fontFamily: 'monospace',
+              fontFamily: 'Alien',
               fontWeight: 700,
-              fontSize: 30,
+              fontSize: 40,
               letterSpacing: '.3rem',
               color: 'inherit',
               textDecoration: 'none',
             }}
           >
-            Raul Web Developer
+            Raul Web Dev.
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -85,7 +83,6 @@ export default function Header() {
               ))}
             </Menu>
           </Box>
-          <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
           <Typography
             variant="h5"
             noWrap
@@ -95,19 +92,21 @@ export default function Header() {
               mr: 2,
               display: { xs: 'flex', md: 'none' },
               flexGrow: 1,
+              fontFamily: 'Alien',
+              fontSize: 40,
               letterSpacing: '.3rem',
               color: 'inherit',
               textDecoration: 'none',
             }}
           >
-            Raul Web Developer
+            Raul Web Dev.
           </Typography>
-          <Box justifyContent="flex-end" sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
+          <Box justifyContent="flex-end" sx={{ flexGrow: 1, pt: 5, mb: 5, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
               <Button
                 key={page}
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'white', display: 'block',"&:hover": { color: 'yellow' } }}
+                sx={{ pl: 6, pr: 6, my: 2, color: 'white', display: 'block', "&:hover": { color: 'yellow' } }}
               >
                 {page}
               </Button>

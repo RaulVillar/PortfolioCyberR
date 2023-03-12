@@ -24,13 +24,9 @@ export default function HomePage() {
     <>
     <BgVideo />
       <div>
-        
         <div>
           <Header />
         </div>
-          <Grid display="flex" justifyContent="center" spacing={2} sx={{ mx: 8, mt: 6}}>
-            <h1 style={{ color: "white" }}>Check out my latest projects</h1>
-          </Grid>
           <Grid justifyContent="center" container spacing={2} columns={16}>
             {projects.map(item => (
               <Grid sx={{ mt: 4 }} key={item.id}>
