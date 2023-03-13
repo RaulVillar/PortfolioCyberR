@@ -24,9 +24,9 @@ export default function HomePage() {
     <>
     <BgVideo />
       <div>
-        <div>
+        <nav>
           <Header />
-        </div>
+        </nav>
           <Grid justifyContent="center" container spacing={2} columns={16}>
             {projects.map(item => (
               <Grid sx={{ mt: 4 }} key={item.id}>
@@ -35,6 +35,7 @@ export default function HomePage() {
                   Title={item.name}
                   technologies={item.technologies}
                   description={item.description}
+                  github={item.github}
                 />
               </Grid>
             ))}

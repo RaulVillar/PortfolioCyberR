@@ -100,7 +100,7 @@ export default function ActionAreaCard(props) {
             }}
           ><Favorite /></IconButton>
           <IconButton
-            href="https://github.com/RaulVillar"
+            href={props.github}
             level="body3"
             underline="none"
             sx={{

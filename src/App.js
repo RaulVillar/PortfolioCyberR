@@ -2,6 +2,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import HomePage from "./Pages/HomePage/HomePage";
 import Contact from "./Pages/Contact/Contact";
 import AboutMe from "./Pages/AboutMe/AboutMe";
+import Error from "./Pages/Error/Error";
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import './index.css';
 
@@ -17,14 +18,17 @@ const theme = createTheme({
 function App() {
 
   const router = createBrowserRouter([{
-    path: "/",
+    path: "/home",
     element: <HomePage />
   }, {
-    path: "/Contact",
+    path: "/contact",
     element: <Contact />
   }, {
-    path: "/AboutMe",
+    path: "/aboutMe",
     element: <AboutMe />
+  }, {
+    path: "/error",
+    element: <Error />
   }
   ])
 

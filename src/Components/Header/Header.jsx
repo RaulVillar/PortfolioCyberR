@@ -9,6 +9,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container'
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
+import { Link } from 'react-router-dom';
 
 
 const pages = ['Home', 'About Me', 'Contact'];
@@ -32,7 +33,7 @@ export default function Header() {
             variant="h6"
             noWrap
             component="a"
-            href="/"
+            href="/home"
             sx={{
               mr: 2,
               display: { xs: 'none', md: 'flex' },
@@ -78,7 +79,7 @@ export default function Header() {
             >
               {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center">{page}</Typography>
+                  <Typography component={Link} to={`/${page.replace(' ', '').toLowerCase()}`}textAlign="center">{page}</Typography>
                 </MenuItem>
               ))}
             </Menu>
@@ -105,6 +106,8 @@ export default function Header() {
             {pages.map((page) => (
               <Button
                 key={page}
+                component={Link}
+                to={`/${page.replace(' ', '').toLowerCase()}`}
                 onClick={handleCloseNavMenu}
                 sx={{ pl: 6, pr: 6, my: 2, color: 'white', display: 'block', "&:hover": { color: 'yellow' } }}
               >
