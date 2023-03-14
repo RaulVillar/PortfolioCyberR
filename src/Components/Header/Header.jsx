@@ -74,12 +74,13 @@ export default function Header() {
               open={Boolean(anchorElNav)}
               onClose={handleCloseNavMenu}
               sx={{
-                display: { xs: 'block', md: 'none' },
+                display: { xs: 'block', md: 'none' }
               }}
             >
               {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography component={Link} to={`/${page.replace(' ', '').toLowerCase()}`}textAlign="center">{page}</Typography>
+                  <Typography sx={{ textDecoration: 'none', color: "black"}} 
+                  component={Link}to={`/${page.replace(' ', '').toLowerCase()}`} textAlign="center">{page}</Typography>
                 </MenuItem>
               ))}
             </Menu>

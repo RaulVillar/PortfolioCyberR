@@ -12,15 +12,15 @@
             "id": 2,
             "name": "Cyber To Do List",
             "technologies": "HTML5, CSS3, React.js.",
-            "description": "Cyber To Do List is a cyberpunk-themed project where users are able to introduce, read and delete their tasks.",
+            "description": "Cyber To Do List is a cyberpunk-themed project where users are able to introduce, read, and delete their tasks.",
             "image": "/Pictures/CyberToDoList.png",
             "github": "https://github.com/RaulVillar/CyberToDoList"
         },
         {
             "id": 3,
-            "name": "Japan Sweets",
+            "name": "Japon Sweets",
             "technologies": "HTML5, CSS3, JavaScript.",
-            "description": "Japan Sweets is a completly functional e-commerce where clients can buy a wide variety of japanese sweets products.",
+            "description": "Japon Sweets is a completly functional e-commerce where clients can buy a wide variety of japanese sweets.",
             "image": "/Pictures/JapanSweets.png",
             "github": "https://github.com/RaulVillar/E-commerce"
         },
@@ -28,7 +28,7 @@
             "id": 4,
             "name": "Sakura Tarot",
             "technologies": "HTML5, CSS3, React.js.",
-            "description": "Sakura Tarot is a simple webpage project in which users are able to play an adivination game where they will get to know their past, present and future.",
+            "description": "Sakura Tarot is a simple webpage project in which users are able to play an adivination game where they can get to know their past, present, and future.",
             "image": "/Pictures/SakuraTarot.png",
             "github": "https://github.com/RaulVillar/Sakura-Tarot-RC"
         },
@@ -36,7 +36,7 @@
             "id": 5,
             "name": "Tenebris Tattoo",
             "technologies": "HTML5, CSS3",
-            "description": "Tennebris Tattoo Studio was one of my first approaches to programming, it is simply a replica from an official template, an exercise of HTML and CSS.",
+            "description": "Tennebris Tattoo Studio was one of my first approaches to programming, it is a replica from an official template, an exercise of HTML and CSS.",
             "image": "/Pictures/TenebrisTattooStudio.jpg",
             "github": "https://github.com/RaulVillar/TattooShop-Replica-"
         }

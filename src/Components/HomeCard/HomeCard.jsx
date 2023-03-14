@@ -57,7 +57,7 @@ export default function ActionAreaCard(props) {
             {props.Title}
           </Typography>
             <Typography fontFamily='poppins' variant="h6" color="yellow">
-              {"Made using:" + " " + props.technologies}
+              {"Made using: " + props.technologies}
             </Typography>
             <Typography fontFamily='poppins' variant="body1" color="white" height="10vh">
               {props.description}
@@ -75,7 +75,7 @@ export default function ActionAreaCard(props) {
                 }}
               ><Favorite /></IconButton>
               <IconButton
-                href="https://github.com/RaulVillar"
+                href={props.github}
                 level="body3"
                 underline="none"
                 sx={{

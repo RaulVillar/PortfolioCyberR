@@ -12,7 +12,7 @@ export default function Footer() {
             <footer>
                 <Grid display="flex" justifyContent="left" spacing={2} sx={{ pb: 3, mx: 8, mt: 5 }}>
                     <IconButton
-                        aria-label="github.com"
+                        aria-label="Github.com"
                         onClick={() => window.open('https://github.com/RaulVillar')}
                         level="body3"
                         underline="none"
@@ -21,7 +21,7 @@ export default function Footer() {
                             fontWeight: "md",
                             "&:hover": { color: 'yellow' },
                         }}
-                    ><GitHubIcon /></IconButton>
+                    ><GitHubIcon fontSize="large"/></IconButton>
                     <IconButton
                         aria-label="Linkedin.com"
                         onClick={() => window.open('https://www.linkedin.com/in/raulvf/')}
@@ -32,10 +32,10 @@ export default function Footer() {
                             fontWeight: "md",
                             "&:hover": { color: 'yellow' },
                         }}
-                    ><LinkedInIcon /></IconButton>
+                    ><LinkedInIcon fontSize="large" /></IconButton>
                     <IconButton
                         component={Link}
-                        to="/Contact"
+                        to="/contact"
                         level="body3"
                         underline="none"
                         sx={{
@@ -43,7 +43,7 @@ export default function Footer() {
                             fontWeight: "md",
                             "&:hover": { color: 'yellow' },
                         }}
-                    ><EmailIcon /></IconButton>
+                    ><EmailIcon fontSize="large"/></IconButton>
                 </Grid>
             </footer>
         </div>
