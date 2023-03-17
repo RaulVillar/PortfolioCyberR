@@ -27,19 +27,19 @@ export default function Contact() {
                     spacing={4}
                     sx={{ color: "white", bgcolor: 'rgba(84, 0, 0, 0.83)', ml: 15, mr: 15, borderRadius: '50px', height: 700 }}
                 >
-                    <Stack direction="row" spacing={11} sx={{ fontSize: '1.5rem', }}>
-                        <Stack sx={{ mx: 1 }} >Email:</Stack>
+                    <Stack direction="row" spacing={9} sx={{ fontSize: '1.5rem', }}>
+                        <Stack sx={{ fontSize: '1.2rem', mx: 1 }} >Email:</Stack>
                         <TextField sx={{ width: 400, bgcolor: 'white', color: 'grey', }}
                             size="lg"
                             variant="outlined"
                             type="email"
                             name="email"
                             placeholder="Write your e-mail here"
-                            style={{ fontFamily: 'poppins', borderRadius: '10px'}}
+                            style={{ borderRadius: '10px' }}
                         />
                     </Stack>
                     <Stack direction="row" spacing={4} >
-                        <Stack sx={{ mx: 1, fontSize: '1.5rem' }} >Message:</Stack>
+                        <Stack sx={{ mx: 1, fontSize: '1.2rem' }} >Message:</Stack>
                         <TextareaAutosize
                             rows="5"
                             name="message"

@@ -79,7 +79,7 @@ export default function Header() {
             >
               {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography sx={{ textDecoration: 'none', color: "black"}} 
+                  <Typography sx={{ fontSize: 15, textDecoration: 'none', color: "black"}} 
                   component={Link}to={`/${page.replace(' ', '').toLowerCase()}`} textAlign="center">{page}</Typography>
                 </MenuItem>
               ))}
@@ -95,7 +95,7 @@ export default function Header() {
               display: { xs: 'flex', md: 'none' },
               flexGrow: 1,
               fontFamily: 'Alien',
-              fontSize: 40,
+              fontSize: 20,
               letterSpacing: '.3rem',
               color: 'inherit',
               textDecoration: 'none',

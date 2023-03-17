@@ -21,6 +21,9 @@ function App() {
     path: "/home",
     element: <HomePage />
   }, {
+    path: "/",
+    element: <HomePage />
+  }, {
     path: "/contact",
     element: <Contact />
   }, {

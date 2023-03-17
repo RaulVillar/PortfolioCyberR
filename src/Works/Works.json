@@ -39,6 +39,14 @@
             "description": "Tennebris Tattoo Studio was one of my first approaches to programming, it is a replica from an official template, an exercise of HTML and CSS.",
             "image": "/Pictures/TenebrisTattooStudio.jpg",
             "github": "https://github.com/RaulVillar/TattooShop-Replica-"
+        }, 
+        {
+            "id": 6,
+            "name": "Consultancy Room",
+            "technologies": "Java, Spring Boot, Thymeleaf",
+            "description": "Consultancy Room is a webpage related to programming consultations where visitors are able to read available consultations in the home page, introduce or editing them using a formulary, or simply deleting them by pressing the delete button.",
+            "image": "/Pictures/ConsultancyProject.png",
+            "github": "https://github.com/Perezdh13/consultancy-project"
         }
     ]
 }

@@ -35,7 +35,6 @@ export default function ActionAreaCard(props) {
       <CardActionArea>
         <CardMedia sx={{ mx: 1, width: 320, p: 4, borderRadius: '50px' }}
           component="img"
-          width='30'
           height='200'
           image={props.Image}
           alt="green iguana"
@@ -53,9 +52,9 @@ export default function ActionAreaCard(props) {
           aria-describedby="modal-modal-description"
         >
           <Box sx={style}>
-          <Typography fontFamily='poppins' gutterBottom variant="h4" color="white" component="div" marginTop={-2}>
-            {props.Title}
-          </Typography>
+            <Typography fontFamily='poppins' gutterBottom variant="h4" color="white" component="div" marginTop={-2}>
+              {props.Title}
+            </Typography>
             <Typography fontFamily='poppins' variant="h6" color="yellow">
               {"Made using: " + props.technologies}
             </Typography>
