@@ -68,7 +68,7 @@ export default function ActionAreaCard(props) {
             </Typography>
           </Box>
         </Modal>
-        <Box sx={{ display: "flex", gap: 1.5, mt: "auto", mx: 3 }}>
+        <Box sx={{ display: "flex", mt: "auto", mx: 3 }}>
           <IconButton
             href="#dribbble-shot"
             level="body3"
