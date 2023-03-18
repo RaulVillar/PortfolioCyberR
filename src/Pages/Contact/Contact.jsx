@@ -6,6 +6,7 @@ import TextareaAutosize from '@mui/base/TextareaAutosize';
 import Header from "../../Components/Header/Header";
 import Footer from "../../Components/Footer/Footer";
 import BgVideo from "../../Components/BgVideo/BgVideo";
+import Typography from '@mui/material/Typography';
 
 export default function Contact() {
     return (
@@ -25,29 +26,29 @@ export default function Contact() {
                     justifyContent="center"
                     alignItems="center"
                     spacing={4}
-                    sx={{ color: "white", bgcolor: 'rgba(84, 0, 0, 0.83)', ml: 15, mr: 15, borderRadius: '50px', height: 700 }}
+                    sx={{ color: "white", bgcolor: 'rgba(84, 0, 0, 0.83)', ml: "5vw", mr: "5vw", borderRadius: '50px', height: 700 }}
                 >
-                    <Stack direction="row" spacing={9} sx={{ fontSize: '1.5rem', }}>
-                        <Stack sx={{ fontSize: '1.2rem', mx: 1 }} >Email:</Stack>
-                        <TextField sx={{ width: 400, bgcolor: 'white', color: 'grey', }}
+                    <Typography variant="h4" sx={{ color: "yellow", mt:-5 }} >Contact</Typography >
+                    <Stack direction="column" spacing={4} sx={{ fontSize: '1.5rem' }}>
+                        <Stack sx={{ fontSize: '1.2rem', mx: 1, mt:5 }} >Email:</Stack>
+                        <TextField sx={{ bgcolor: 'white', borderRadius: "10px" }}
                             size="lg"
                             variant="outlined"
                             type="email"
                             name="email"
                             placeholder="Write your e-mail here"
-                            style={{ borderRadius: '10px' }}
                         />
                     </Stack>
-                    <Stack direction="row" spacing={4} >
-                        <Stack sx={{ mx: 1, fontSize: '1.2rem' }} >Message:</Stack>
+                    <Stack direction="column" spacing={4} >
+                        <Stack sx={{ fontSize: '1.2rem', mx: 1 }} >Message:</Stack>
                         <TextareaAutosize
-                            rows="5"
+                            minRows={5}
                             name="message"
                             id="message"
                             placeholder="Write your message here"
                             required=""
                             maxRows={4}
-                            style={{ fontFamily: 'poppins', width: 400, height: 200, borderRadius: '10px', fontSize: '1.2rem' }}
+                            style={{ fontFamily: 'poppins', width: 380, height: 200, borderRadius: '10px', fontSize: '1.2rem' }}
                         />
                     </Stack>
                     <button class='button accept-btn'>Submit</button>
