@@ -56,7 +56,7 @@ export default function ActionAreaCard(props) {
               {props.Title}
             </Typography>
             <Typography fontFamily='poppins' variant="h6" color="yellow">
-              {"Made using: " + props.technologies}
+              {"Stack: " + props.technologies}
             </Typography>
             <Typography fontFamily='poppins' variant="body1" color="white" height="10vh">
               {props.description}
