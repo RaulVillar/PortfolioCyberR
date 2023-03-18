@@ -16,7 +16,7 @@ const style = {
   top: '50%',
   left: '50%',
   transform: 'translate(-50%, -50%)',
-  width: "80%",
+  width: "75%",
   maxWidth: 400,
   maxHeight: "90%",
   color: 'white',
@@ -66,29 +66,6 @@ export default function ActionAreaCard(props) {
             <Typography fontFamily='poppins' variant="body1" color="white" height="10vh">
               {props.description}
             </Typography>
-            <Box sx={{ display: "flex", gap: 1.5, mt: "auto", mx: 3 }}>
-              <IconButton
-                href="#dribbble-shot"
-                level="body3"
-                underline="none"
-                sx={{
-                  color: "white",
-                  fontWeight: "md",
-                  ml: "auto",
-                  "&:hover": { color: 'yellow' },
-                }}
-              ><Favorite /></IconButton>
-              <IconButton
-                href={props.github}
-                level="body3"
-                underline="none"
-                sx={{
-                  color: "white",
-                  fontWeight: "md",
-                  "&:hover": { color: 'yellow' },
-                }}
-              ><GitHubIcon /></IconButton>
-            </Box>
           </Box>
         </Modal>
         <Box sx={{ display: "flex", gap: 1.5, mt: "auto", mx: 3 }}>

@@ -27,7 +27,7 @@ export default function HomePage() {
         <nav>
           <Header />
         </nav>
-          <Grid justifyContent="center" container spacing={2} columns={16}>
+          <Grid justifyContent="center" container columns={16}>
             {projects.map(item => (
               <Grid sx={{ mt: 4 }} key={item.id}>
                 <HomeCards

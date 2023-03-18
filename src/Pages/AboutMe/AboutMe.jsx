@@ -12,8 +12,8 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 const imgStyle = {
   marginBottom: '0.8592910848549946vh',
   borderRadius: '5px',
-  height:"3.007518796992481vh", 
-  width:"5.416666666666667vw"
+  height:"28px", 
+  width:"104px"
 }
 
 export default function AboutMe() {
@@ -38,8 +38,8 @@ export default function AboutMe() {
           </Typography>
         </Grid>
       </Grid>
-      <Grid justifyContent="center" container spacing={2} columns={18} sx={{ mt: 10, gap: 10 }}>
-        <Grid xs={3}>
+      <Grid justifyContent="center" container spacing={2} columns={16} sx={{ mt: 10, gap: "5vw"}}>
+        <Grid xs={6}>
           <Accordion sx={{ bgcolor: 'rgba(84, 0, 0, 0.83)', borderRadius: '50px', }}>
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
@@ -63,8 +63,8 @@ export default function AboutMe() {
             </AccordionDetails>
           </Accordion>
         </Grid>
-        <Grid xs={3}>
-          <Accordion sx={{ bgcolor: 'rgba(84, 0, 0, 0.83)', borderRadius: '50px', }}>
+        <Grid xs={6}>
+          <Accordion sx={{ bgcolor: 'rgba(84, 0, 0, 0.83)', borderRadius: '50px' }}>
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel1a-content"
