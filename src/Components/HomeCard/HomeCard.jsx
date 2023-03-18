@@ -16,12 +16,17 @@ const style = {
   top: '50%',
   left: '50%',
   transform: 'translate(-50%, -50%)',
-  width: 400,
+  width: "80%",
+  maxWidth: 400,
+  maxHeight: "90%",
   color: 'white',
+  overflowY: "auto",
+  margin: "0 auto",
   bgcolor: 'rgba(84, 0, 0, 0.83)',
-  border: '2px solid white',
+  borderRadius: "10px",
+  border: '2px solid yellow',
   boxShadow: 24,
-  p: 4,
+  padding: "2rem",
 };
 
 export default function ActionAreaCard(props) {
