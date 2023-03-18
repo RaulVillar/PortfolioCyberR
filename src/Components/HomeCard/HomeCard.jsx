@@ -36,13 +36,25 @@ export default function ActionAreaCard(props) {
   const handleClose = () => setOpen(false);
 
   return (
-    <Card spacing={4} elevation={3} sx={{ bgcolor: 'rgba(84, 0, 0, 0.83)', Height: 600, maxWidth: 400, mx: 6, borderRadius: '5%' }}>
+    <Card spacing={4} elevation={3} sx={{
+      bgcolor: 'rgba(84, 0, 0, 0.83)',
+      Height: 600,
+      maxWidth: 400,
+      mx: 6,
+      borderRadius: '5%',
+      boxShadow: '0px 8px 16px 0px rgba(0,0,0,0.2)',
+      transition: 'box-shadow 0.3s ease-in-out',
+      "&:hover": {
+        boxShadow: '0px 12px 20px 0px rgba(0,0,0,0.6)',
+      }
+    }}>
       <CardActionArea>
         <CardMedia sx={{ mx: 1, width: 320, p: 4, borderRadius: '50px' }}
           component="img"
           height='200'
           image={props.Image}
           alt="green iguana"
+
         />
         <CardContent sx={{ mx: 4 }}>
           <Typography fontFamily='ethno' gutterBottom variant="h6" color="white" component="div" marginTop={-2}>
