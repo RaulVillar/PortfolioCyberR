@@ -10,6 +10,7 @@ import Container from '@mui/material/Container'
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import { Link } from 'react-router-dom';
+import MusicPlayer from '../BgMusic/BgMusic';
 
 
 const pages = ['Home', 'About Me', 'Contact'];
@@ -103,6 +104,7 @@ export default function Header() {
           >
             Raul Web Dev.
           </Typography>
+          <MusicPlayer />
           <Box justifyContent="flex-end" sx={{ flexGrow: 1, pt: 5, mb: 5, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
               <Button

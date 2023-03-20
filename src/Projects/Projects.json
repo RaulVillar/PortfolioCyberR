@@ -42,9 +42,9 @@
         }, 
         {
             "id": 6,
-            "name": "Consultancy Room",
+            "name": "Consulting Room",
             "technologies": "Java, Spring Boot, Thymeleaf",
-            "description": "Consultancy Room is a webpage CRUD-based where users are able to introduce, read, edit, and delete their consultations",
+            "description": "Consulting Room is a webpage CRUD-based where users are able to introduce, read, edit, and delete their consultations",
             "image": "/Pictures/ConsultancyProject.png",
             "github": "https://github.com/Perezdh13/consultancy-project"
         }
