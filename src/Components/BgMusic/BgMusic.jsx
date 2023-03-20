@@ -10,7 +10,7 @@ function MusicPlayer() {
   const [audio] = useState(new Audio(CyberMusic));
 
   useEffect(() => {
-    audio.volume = 0.2;
+    audio.volume = 0.1;
   }, [audio]);
 
   function togglePlay() {
