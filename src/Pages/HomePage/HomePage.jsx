@@ -7,7 +7,6 @@ import CallAxios from '../../Services/CallAxios';
 import Grid from '@mui/material/Grid';
 import BgVideo from "../../Components/BgVideo/BgVideo";
 
-
 export default function HomePage() {
 
   const [projects, setProjects] = useState([]);
@@ -22,25 +21,25 @@ export default function HomePage() {
 
   return (
     <>
-    <BgVideo />
+      <BgVideo />
       <div>
         <nav>
           <Header />
         </nav>
-          <Grid justifyContent="center" container columns={16}>
-            {projects.map(item => (
-              <Grid sx={{ mt: 4 }} key={item.id}>
-                <HomeCards
-                  Image={item.image}
-                  Title={item.name}
-                  technologies={item.technologies}
-                  description={item.description}
-                  github={item.github}
-                />
-              </Grid>
-            ))}
-          </Grid>
-        <Footer/>
+        <Grid justifyContent="center" container columns={16}>
+          {projects.map(item => (
+            <Grid sx={{ mt: 4 }} key={item.id}>
+              <HomeCards
+                Image={item.image}
+                Title={item.name}
+                technologies={item.technologies}
+                description={item.description}
+                github={item.github}
+              />
+            </Grid>
+          ))}
+        </Grid>
+        <Footer />
       </div>
     </>
   )

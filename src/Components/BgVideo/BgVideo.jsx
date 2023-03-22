@@ -1,5 +1,5 @@
 import React from "react"
-import VideoBg from "../../Assets/CyberWallpaper.mp4"
+import VideoBg from "../../Assets/Video/CyberWallpaper.mp4"
 import "./BgVideo.css"
 
 export default function BgVideo() {

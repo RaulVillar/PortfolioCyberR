@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { useState } from 'react';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
@@ -10,6 +11,9 @@ import Box from "@mui/joy/Box";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import Button from '@mui/material/Button';
 import Modal from '@mui/material/Modal';
+import Lightbox from "yet-another-react-lightbox";
+import "yet-another-react-lightbox/styles.css";
+
 
 const style = {
   position: 'absolute',
@@ -31,6 +35,8 @@ const style = {
 
 export default function ActionAreaCard(props) {
 
+  const [isOpen, setIsOpen] = useState(false);
+
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
@@ -49,12 +55,23 @@ export default function ActionAreaCard(props) {
       }
     }}>
       <CardActionArea>
-        <CardMedia sx={{ mx: 1, width: 320, p: 4, borderRadius: '50px' }}
+        <CardMedia onClick={() => setIsOpen(true)} sx={{ mx: 1, width: 320, p: 4, borderRadius: '50px' }}
           component="img"
           height='200'
           image={props.Image}
           alt="green iguana"
-
+        />
+        <Lightbox
+          open={isOpen}
+          close={() => setIsOpen(false)}
+          slides={[
+            {
+              src: props.Image,
+              alt: "image 1",
+              width: 1600,
+              height: 800,
+            }
+          ]}
         />
         <CardContent sx={{ mx: 4 }}>
           <Typography fontFamily='ethno' gutterBottom variant="h6" color="white" component="div" marginTop={-2}>

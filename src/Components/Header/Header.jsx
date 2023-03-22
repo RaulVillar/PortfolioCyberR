@@ -48,7 +48,6 @@ export default function Header() {
           >
             Raul Web Dev.
           </Typography>
-
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
             <IconButton
               size="large"
@@ -80,8 +79,8 @@ export default function Header() {
             >
               {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography sx={{ fontSize: 15, textDecoration: 'none', color: "black"}} 
-                  component={Link}to={`/${page.replace(' ', '').toLowerCase()}`} textAlign="center">{page}</Typography>
+                  <Typography sx={{ fontSize: 15, textDecoration: 'none', color: "black" }}
+                    component={Link} to={`/${page.replace(' ', '').toLowerCase()}`} textAlign="center">{page}</Typography>
                 </MenuItem>
               ))}
             </Menu>
