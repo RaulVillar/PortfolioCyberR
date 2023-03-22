@@ -46,7 +46,7 @@ export default function ActionAreaCard(props) {
       bgcolor: 'rgba(84, 0, 0, 0.83)',
       Height: 600,
       maxWidth: 400,
-      mx: 6,
+      mx: 7,
       borderRadius: '5%',
       boxShadow: '0px 8px 16px 0px rgba(0,0,0,0.2)',
       transition: 'box-shadow 0.3s ease-in-out',
