@@ -8,12 +8,14 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import Button from '@mui/material/Button';
+import Pdf from "../../Assets/CV/CV_RaulVF.pdf";
 
 const imgStyle = {
   marginBottom: '0.8592910848549946vh',
   borderRadius: '5px',
-  height:"28px", 
-  width:"104px"
+  height: "28px",
+  width: "104px"
 }
 
 export default function AboutMe() {
@@ -36,9 +38,10 @@ export default function AboutMe() {
             improve as a programmer-. After having completed a wide variety of projects -both individually and in team-, where I have always applied the clean code and SOLID principles, I am totally
             ready to share my wisdom and soft skills to any business which could be interested on hiring me.
           </Typography>
+          <Button href={Pdf} download="CV_RaulVF" style={{ fontFamily: 'poppins', color: "white", marginTop: 15 }} variant="contained">Download CV</Button>
         </Grid>
       </Grid>
-      <Grid justifyContent="center" container spacing={2} columns={16} sx={{ mt: 10, gap: "5vw"}}>
+      <Grid justifyContent="center" container spacing={2} columns={16} sx={{ mt: 10, gap: "5vw" }}>
         <Grid xs={6}>
           <Accordion sx={{ bgcolor: 'rgba(84, 0, 0, 0.83)', borderRadius: '50px', }}>
             <AccordionSummary

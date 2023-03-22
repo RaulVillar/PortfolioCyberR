@@ -6,6 +6,7 @@ import Grid from '@mui/material/Grid';
 import { Link } from 'react-router-dom';
 
 
+
 export default function Footer() {
     return (
         <div>
@@ -20,7 +21,7 @@ export default function Footer() {
                             color: "yellow",
                             fontWeight: "md",
                         }}
-                    ><GitHubIcon fontSize="large"/></IconButton>
+                    ><GitHubIcon fontSize="large" /></IconButton>
                     <IconButton
                         aria-label="Linkedin.com"
                         onClick={() => window.open('https://www.linkedin.com/in/raulvf/')}
@@ -40,7 +41,7 @@ export default function Footer() {
                             color: "yellow",
                             fontWeight: "md",
                         }}
-                    ><EmailIcon fontSize="large"/></IconButton>
+                    ><EmailIcon fontSize="large" /></IconButton>
                 </Grid>
             </footer>
         </div>
