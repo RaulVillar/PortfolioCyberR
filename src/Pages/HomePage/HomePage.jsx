@@ -6,6 +6,7 @@ import HomeCards from "../../Components/HomeCard/HomeCard";
 import CallAxios from '../../Services/CallAxios';
 import Grid from '@mui/material/Grid';
 import BgVideo from "../../Components/BgVideo/BgVideo";
+import Typography from '@mui/material/Typography';
 
 export default function HomePage() {
 
@@ -26,9 +27,10 @@ export default function HomePage() {
         <nav>
           <Header />
         </nav>
+        <Typography variant="h4" sx={{ color: "yellow", textAlign: 'center', marginTop: 3.2 }} >Projects</Typography >
         <Grid justifyContent="center" container columns={16}>
           {projects.map(item => (
-            <Grid sx={{ mt: 5 }} key={item.id}>
+            <Grid sx={{ mt: 6 }} key={item.id}>
               <HomeCards
                 Image={item.image}
                 Title={item.name}
