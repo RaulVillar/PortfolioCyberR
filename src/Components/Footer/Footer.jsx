@@ -10,7 +10,7 @@ export default function Footer() {
     return (
         <div>
             <footer>
-                <Grid display="flex" justifyContent="left" spacing={2} sx={{ pb: 3, mx: 8, mt: 5 }}>
+                <Grid display="flex" justifyContent="left" spacing={2} sx={{ pb: 3, mx: "3vw", mt: 5 }}>
                     <IconButton
                         aria-label="Github.com"
                         onClick={() => window.open('https://github.com/RaulVillar')}
