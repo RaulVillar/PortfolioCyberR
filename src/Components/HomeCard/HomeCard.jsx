@@ -13,6 +13,7 @@ import Button from '@mui/material/Button';
 import Modal from '@mui/material/Modal';
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
+import Zoom from "yet-another-react-lightbox/plugins/zoom";
 
 
 const style = {
@@ -64,6 +65,7 @@ export default function ActionAreaCard(props) {
         <Lightbox
           open={isOpen}
           close={() => setIsOpen(false)}
+          plugins={[Zoom]}
           slides={[
             {
               src: props.Image,

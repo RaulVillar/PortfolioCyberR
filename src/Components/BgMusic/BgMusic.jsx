@@ -27,7 +27,7 @@ function MusicPlayer() {
       <IconButton onClick={togglePlay}>
         {isPlaying ? <PauseCircleOutlineIcon style={{color: 'yellow', fontSize: 50}} /> : <PlayCircleOutlineIcon style={{color: 'yellow', fontSize: 50}}/>}
       </IconButton>
-      <audio ref={audioRef} />
+      <audio loop ref={audioRef} />
     </div>
   );
 }
