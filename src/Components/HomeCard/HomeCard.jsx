@@ -74,12 +74,12 @@ export default function ActionAreaCard(props) {
             }
           ]}
         />
-        <CardContent sx={{ mx: 4 }}>
+        <CardContent sx={{ mx: 3 }}>
           <Typography fontFamily='ethno' gutterBottom variant="h6" color="white" component="div" marginTop={-2}>
             {props.Title}
           </Typography>
         </CardContent>
-        <Button sx={{ mx: 5, color: "yellow" }} onClick={handleOpen}>Show More</Button>
+        <Button sx={{ mx: 4, color: "yellow" }} onClick={handleOpen}>Show More</Button>
         <Modal
           open={open}
           onClose={handleClose}

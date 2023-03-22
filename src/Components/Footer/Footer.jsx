@@ -17,9 +17,8 @@ export default function Footer() {
                         level="body3"
                         underline="none"
                         sx={{
-                            color: "white",
+                            color: "yellow",
                             fontWeight: "md",
-                            "&:hover": { color: 'yellow' },
                         }}
                     ><GitHubIcon fontSize="large"/></IconButton>
                     <IconButton
@@ -28,9 +27,8 @@ export default function Footer() {
                         level="body3"
                         underline="none"
                         sx={{
-                            color: "white",
+                            color: "yellow",
                             fontWeight: "md",
-                            "&:hover": { color: 'yellow' },
                         }}
                     ><LinkedInIcon fontSize="large" /></IconButton>
                     <IconButton
@@ -39,9 +37,8 @@ export default function Footer() {
                         level="body3"
                         underline="none"
                         sx={{
-                            color: "white",
+                            color: "yellow",
                             fontWeight: "md",
-                            "&:hover": { color: 'yellow' },
                         }}
                     ><EmailIcon fontSize="large"/></IconButton>
                 </Grid>
