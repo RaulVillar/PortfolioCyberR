@@ -38,7 +38,7 @@ export default function AboutMe() {
             improve as a programmer-. After having completed a wide variety of projects -both individually and in team-, where I have always applied the clean code and SOLID principles, I am totally
             ready to share my wisdom and soft skills to any business which could be interested on hiring me.
           </Typography>
-          <Button href={Pdf} download="CV_RaulVF" style={{ fontFamily: 'poppins', color: "white", marginTop: 15 }} variant="contained">Download CV</Button>
+          <Button href={Pdf} download="CV_RaulVF" sx={{ fontFamily: 'poppins', marginTop: 2, backgroundColor: "yellow", color: "black", "&:hover": { backgroundColor: "yellow" } }} variant="contained" >Download CV</Button>
         </Grid>
       </Grid>
       <Grid justifyContent="center" container spacing={2} columns={16} sx={{ mt: 10, gap: "5vw" }}>

@@ -28,9 +28,9 @@ export default function Contact() {
                     spacing={4}
                     sx={{ color: "white", bgcolor: 'rgba(84, 0, 0, 0.83)', ml: "5vw", mr: "5vw", borderRadius: '50px', height: 700 }}
                 >
-                    <Typography variant="h4" sx={{ color: "yellow", mt:-5 }} >Contact</Typography >
+                    <Typography variant="h4" sx={{ color: "yellow", mt: -5 }} >Contact</Typography >
                     <Stack direction="column" spacing={4} sx={{ fontSize: '1.5rem' }}>
-                        <Stack sx={{ fontSize: '1.2rem', mx: 1, mt:5 }} >Email:</Stack>
+                        <Stack sx={{ fontSize: '1.2rem', mx: 1, mt: 5 }} >Email:</Stack>
                         <TextField sx={{ bgcolor: 'white', borderRadius: "10px" }}
                             size="lg"
                             variant="outlined"
@@ -51,7 +51,7 @@ export default function Contact() {
                             style={{ fontFamily: 'poppins', width: 380, height: 200, borderRadius: '10px', fontSize: '1.2rem' }}
                         />
                     </Stack>
-                    <button class='button accept-btn'>Submit</button>
+                    <button class='button accept-btn' style={{ fontFamily: 'poppins' }}>Submit</button>
                 </Stack>
             </form>
             <Footer />
