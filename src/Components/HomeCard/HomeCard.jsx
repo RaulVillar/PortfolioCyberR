@@ -58,7 +58,7 @@ export default function ActionAreaCard(props) {
         <CardMedia onClick={() => setIsOpen(true)} sx={{ width: 320, p: 4, borderRadius: '50px' }}
           component="img"
           height='200'
-          image={props.Image}
+          image={props.mainImg}
           alt="green iguana"
         />
         <Lightbox
@@ -67,8 +67,20 @@ export default function ActionAreaCard(props) {
           plugins={[Zoom]}
           slides={[
             {
-              src: props.Image,
+              src: props.mainImg,
               alt: "image 1",
+              width: 1600,
+              height: 800,
+            },
+            {
+              src: props.secondaryImg,
+              alt: "image 2",
+              width: 1600,
+              height: 800,
+            },
+            {
+              src: props.tertiaryImg,
+              alt: "image 3",
               width: 1600,
               height: 800,
             }

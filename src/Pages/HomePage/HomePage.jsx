@@ -29,7 +29,9 @@ export default function HomePage() {
         {projects.map(item => (
           <Grid sx={{ mt: 6 }} key={item.id}>
             <HomeCards
-              Image={item.image}
+              mainImg={item.mainImg}
+              secondaryImg={item.secondaryImg}
+              tertiaryImg={item.tertiaryImg}
               Title={item.name}
               technologies={item.technologies}
               description={item.description}

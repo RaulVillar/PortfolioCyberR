@@ -4,8 +4,10 @@
             "id": 1,
             "name": "Above The Stars",
             "technologies": "HTML5, CSS3, React.js.",
-            "description": "Above The Stars was a project created during the Factoria's F5 Hackathon and thought as a future science-fiction marketplace where clients would be able to buy and sell starts and constellations.",
-            "image": "/Pictures/AboveTheStars.jpg",
+            "description": "Above The Stars was a project created during the Factoria's F5 Hackathon and thought as a future science-fiction marketplace where clients would be able to buy and sell starts and constellations. It has a functional product searcher and contact form",
+            "mainImg": "/Pictures/AboveTheStars-HomePage.jpg",
+            "secondaryImg": "/Pictures/AboveTheStars-Contact.jpg",
+            "tertiaryImg": "/Pictures/AboveTheStars-AtomicDesign.png",
             "github": "https://github.com/RaulVillar/AboveTheSky"
         },
         {
@@ -13,7 +15,9 @@
             "name": "Cyber To Do List",
             "technologies": "HTML5, CSS3, React.js.",
             "description": "Cyber To Do List is a cyberpunk-themed project where users are able to introduce, read, and delete their tasks.",
-            "image": "/Pictures/CyberToDoList.png",
+            "mainImg": "/Pictures/CyberToDoList.png",
+            "secondaryImg": "/Pictures/CyberToDoList-Scheme.jpg",
+            "tertiaryImg": "/Pictures/CyberToDoList-Mobile.png",
             "github": "https://github.com/RaulVillar/CyberToDoList"
         },
         {
@@ -21,7 +25,9 @@
             "name": "Japon Sweets",
             "technologies": "HTML5, CSS3, JavaScript.",
             "description": "Japon Sweets is a completly functional e-commerce where clients can buy a wide variety of japanese sweets.",
-            "image": "/Pictures/JapanSweets.png",
+            "mainImg": "/Pictures/JapanSweets.png",
+            "secondaryImg": "/Pictures/JapanSweets-Cart.png",
+            "tertiaryImg": "/Pictures/JapanSweets-Cart2.png",
             "github": "https://github.com/RaulVillar/E-commerce"
         },
         {
@@ -29,7 +35,9 @@
             "name": "Sakura Tarot",
             "technologies": "HTML5, CSS3, React.js.",
             "description": "Sakura Tarot is a simple webpage project in which users are able to play an adivination game where they can get to know their past, present, and future.",
-            "image": "/Pictures/SakuraTarot.png",
+            "mainImg": "/Pictures/SakuraTarot.png",
+            "secondaryImg": "/Pictures/SakuraTarot-Secondary.png",
+            "tertiaryImg": "/Pictures/SakuraTarot-MobileResponsive.png",
             "github": "https://github.com/RaulVillar/Sakura-Tarot-RC"
         },
         {
@@ -37,7 +45,9 @@
             "name": "Tenebris Tattoo",
             "technologies": "HTML5, CSS3",
             "description": "Tennebris Tattoo Studio was one of my first approaches to programming, it is a replica from an official template, an exercise of HTML and CSS.",
-            "image": "/Pictures/TenebrisTattooStudio.jpg",
+            "mainImage": "/Pictures/TenebrisTattooStudio-HomeP.jpg",
+            "secondaryImg": "/Pictures/TenebrisTattooStudio-AboutUs.png",
+            "tertiaryImg": "/Pictures/TenebrisTattooStudio-OurWorks.png",
             "github": "https://github.com/RaulVillar/TattooShop-Replica-"
         }, 
         {
@@ -45,7 +55,9 @@
             "name": "Consulting Room",
             "technologies": "Java, Spring Boot, Thymeleaf",
             "description": "Consulting Room is a webpage CRUD-based where users are able to introduce, read, edit, and delete their consultations",
-            "image": "/Pictures/ConsultancyProject.png",
+            "mainImg": "/Pictures/ConsultancyProject.png",
+            "secondaryImg": "/Pictures/ConsultancyProject-Add.jpg",
+            "tertiaryImg": "/Pictures/ConsultancyProject-MobileResponsive.png",
             "github": "https://github.com/Perezdh13/consultancy-project"
         }
     ]
