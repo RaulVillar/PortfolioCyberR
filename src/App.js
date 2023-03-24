@@ -2,7 +2,6 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import HomePage from "./Pages/HomePage/HomePage";
 import Contact from "./Pages/Contact/Contact";
 import AboutMe from "./Pages/AboutMe/AboutMe";
-import Error from "./Pages/Error/Error";
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import './index.css';
 
@@ -29,9 +28,6 @@ function App() {
   }, {
     path: "/aboutMe",
     element: <AboutMe />
-  }, {
-    path: "/error",
-    element: <Error />
   }
   ])
 

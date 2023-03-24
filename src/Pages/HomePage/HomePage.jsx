@@ -23,26 +23,22 @@ export default function HomePage() {
   return (
     <>
       <BgVideo />
-      <div>
-        <nav>
-          <Header />
-        </nav>
-        <Typography variant="h4" sx={{ color: "yellow", textAlign: 'center', marginTop: 3.2 }} >Projects</Typography >
-        <Grid justifyContent="center" container columns={16}>
-          {projects.map(item => (
-            <Grid sx={{ mt: 6 }} key={item.id}>
-              <HomeCards
-                Image={item.image}
-                Title={item.name}
-                technologies={item.technologies}
-                description={item.description}
-                github={item.github}
-              />
-            </Grid>
-          ))}
-        </Grid>
-        <Footer />
-      </div>
+      <Header />
+      <Typography variant="h4" sx={{ color: "yellow", textAlign: 'center', marginTop: 3.2 }} >Projects</Typography >
+      <Grid justifyContent="center" container columns={16}>
+        {projects.map(item => (
+          <Grid sx={{ mt: 6 }} key={item.id}>
+            <HomeCards
+              Image={item.image}
+              Title={item.name}
+              technologies={item.technologies}
+              description={item.description}
+              github={item.github}
+            />
+          </Grid>
+        ))}
+      </Grid>
+      <Footer />
     </>
   )
 }
