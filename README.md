@@ -5,16 +5,16 @@
 Este proyecto desarollado en Java, mediante Spring Boot y Thymeleaf, nos permite visualizar, añadir, eliminar y actualizar (CRUD) consultas en una base de datos a 
 tiempo real. Ha sido realizado mediante el entorno de desarrollo (IDE) IntelliJ, utilizando el denominado patrón de arquitectura modelo-vista-controlador, y empleando el sistema de gestión de base de datos de MySQL XAMPP / Workbench, donde se ha generado la tabla en la cual se almacena la información. 
 
-<h2>2. Funcionalidades:</h2>
+<h2>2. Features:</h2>
 
 <ul>
-<li>Vista principal: en la página principal podemos visualizar las diversas consultas que se encuentran en nuestra base de datos repartidas en tarjetas, donde nos 
-encontraremos con la fecha de creación -que nos permite ordenar las tarjetas por fecha más reciente-, los nombres y apellidos, la matería de consulta, un título,
-una breve descripción y los botones de editar y borrar.</li>
-<li>Formulario de consulta: en esta vista podemos añadir consultas a nuestra base de datos cumplimentando, obligatoriamente, los diversos campos que nos aparecen
-en pantalla. Posteriormente debemos de presionar el botón de enviar. </li>
-<li>Formulario de edición: en esta vista nos aparecen los datos de la tarea que hayamos seleccionado para así poder editarlos. Una vez hayamos concluído la
-edición de nuestra consulta únicamente debemos presionar el botón de actualizar.</li>
+<li>Completly responsive webpage for every device.</li>
+<li>Responsive navigation bar which, after reducing its size, it displays a hamburger menu -it makes it easier to navigate for mobile users-.</li>
+<li>Animated background image.</li>
+<li>An interactive icon which allows the user to play and pause the background cyberpunk-themed music.</li>
+<li>Projects are displayed in cards: clicking the main image opens a gallery which allows the user to see the project in depth, there is also a "show more" button which, employing a modal, displays more information about the project. In addition, I have inclued a GitHub button for each card.</li>
+<li>About Me: it includes a short description of my self, a button to download my CV, and the stacks which I am specialized in.</li>
+<li>Contact: a completly functional form which works making use of this API "https://formspree.io" .</li>
 </ul>
 
 <h2>3. Stack 🛠️⚙️</h2>
