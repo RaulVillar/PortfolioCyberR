@@ -2,7 +2,8 @@
 
 <h2>1. Description</h2>
 
-This project was developed using React. It is a portfolio which allows the users to visualize the projects I have completed, to read a short description of my self, and to contact me. I have always pursued the SOLID's principles in order to have the cleanest code: every component has been carefully atomized and the code is easily understandable. The project is divided in components (header, footer, contact-form, etc), views (home page, about me and contact), a service -where I made a fetch of my JSON using AXIOS-, and assets (CV, fonts, music, and video). I would like to point out that I made use of React DOM to route the different pages and Material UI to help me with the responsiveness. 
+This project was built using React. It is a self-developed portfolio which allows users to visualize each project I have worked on, to read a hand-written description of my self, and to directly contact me using a form. 
+In this project I have pursued the SOLID's principles in order to have the cleanest code: every component was carefully atomized and the code is easily understandable. The project was divided in components (header, footer, contact-form, etc), views (home page, about me and contact), a service -where I made a fetch of my JSON using AXIOS-, and assets (CV, fonts, music, and video). I would like to point out that I made use of React DOM to route the different pages and Material UI to help me with the responsiveness. 
 
 <h2>2. Features:</h2>
 
@@ -25,7 +26,7 @@ This project was developed using React. It is a portfolio which allows the users
 <img style="display: flex-wrap" align="center"  height="24" width="auto" alt="CSS3" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
 <img style="display: flex-wrap" align="center"  height="24" width="auto" alt="JavaScript" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
 <img style="display: flex-wrap" align="center"  height="24" width="auto" alt="React" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
- <img style="display: flex-wrap" align="center"  height="24" width="auto" alt="Material UI" src="https://img.shields.io/badge/Material%20UI-007FFF?style=for-the-badge&logo=mui&logoColor=white"/>
+ <img style="display: flex-wrap" align="center" height="24" width="auto" alt="Material UI" src="https://img.shields.io/badge/Material%20UI-007FFF?style=for-the-badge&logo=mui&logoColor=white"/>
 <img style="display: flex-wrap" align="center"  height="24" width="auto" alt="JSON" src="https://img.shields.io/badge/json-5E5C5C?style=for-the-badge&logo=json&logoColor=white"/>
 <img style="display: flex-wrap" align="center"  height="24" width="auto" alt="Git" src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white"/>  
 <img style="display: flex-wrap" align="center"  height="24" width="auto" alt="Jira" src="https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white"/>
