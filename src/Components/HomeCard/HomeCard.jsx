@@ -38,7 +38,7 @@ export default function ActionAreaCard(props) {
 
   const [isOpen, setIsOpen] = useState(false);
   const [open, setOpen] = React.useState(false);
-
+  
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
 
@@ -46,9 +46,8 @@ export default function ActionAreaCard(props) {
     <Card sx={{
       bgcolor: 'rgba(84, 0, 0, 0.83)',
       Height: 600,
-      maxWidth: "auto",
-      minWidth: "auto",
-      mx: 6,
+      maxWidth: 400,
+      mx: 7,
       borderRadius: '5%',
       boxShadow: '0px 8px 16px 0px rgba(0,0,0,0.2)',
       transition: 'box-shadow 0.3s ease-in-out',
@@ -57,7 +56,7 @@ export default function ActionAreaCard(props) {
       }
     }}>
       <CardActionArea>
-        <CardMedia onClick={() => setIsOpen(true)} sx={{ width: 320, p: 4, borderRadius: '50px' }}
+        <CardMedia onClick={() => setIsOpen(true)} sx={{ width: "auto", p: 4, borderRadius: '50px' }}
           component="img"
           height='200'
           image={props.mainImg}
