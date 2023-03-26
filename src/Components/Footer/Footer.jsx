@@ -4,6 +4,7 @@ import EmailIcon from '@mui/icons-material/Email';
 import IconButton from '@mui/material/IconButton';
 import Grid from '@mui/material/Grid';
 import { Link } from 'react-router-dom';
+import "./Footer.css"
 
 
 
