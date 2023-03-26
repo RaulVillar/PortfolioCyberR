@@ -51,9 +51,9 @@ Para instalar la aplicación deberéis seguir los pasos que describo a continuac
 
 <h2>6. Mock-up:</h2>
 
-<img width="895" alt="homepage" src="public/Pictures/Portfolio-HomePage.jpg";>
- <img width="895" alt="homepage" src="public/Pictures/Portfolio-AboutMe.jpg";>
- <img width="895" alt="homepage" src="public/Pictures/Portfolio-Contact.jpg";>
+ <img width="895" alt="mock-up-HomePage" src="public/Pictures/Portfolio-HomePage.jpg";>
+ <img width="895" alt="mock-up-AboutMe" src="public/Pictures/Portfolio-AboutMe.jpg";>
+ <img width="895" alt="mock-up-Contact" src="public/Pictures/Portfolio-Contact.jpg";>
 
 <h2>12. Final Product</h2>
 
@@ -69,12 +69,12 @@ Para instalar la aplicación deberéis seguir los pasos que describo a continuac
 
 <h3>Mobile version</h3>
 <img width="400" alt="mobile-HomePage" src="public/Pictures/Mobile-HomePage.png";>
- <img width="400" alt="mobile-AboutMe" src="public/Pictures/Mobile-AboutMe.png";>
- <img width="400" alt="mobile-Contact" src="public/Pictures/Mobile-Contact.png";>
+<img width="400" alt="mobile-AboutMe" src="public/Pictures/Mobile-AboutMe.png";>
+<img width="400" alt="mobile-Contact" src="public/Pictures/Mobile-Contact.png";>
 
 <h3>Tablet version</h3>
 <img width="800" alt="mobile" src="public/Pictures/Tablet-HomePage.png";>
- <img width="800" alt="mobile" src="public/Pictures/Tablet-AboutMe.png";>
- <img width="800" alt="mobile" src="public/Pictures/Tablet-Contact.png";>
+<img width="800" alt="mobile" src="public/Pictures/Tablet-AboutMe.png";>
+<img width="800" alt="mobile" src="public/Pictures/Tablet-Contact.png";>
 
 
