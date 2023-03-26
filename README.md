@@ -2,7 +2,7 @@
 
 <h2>1. Description</h2>
 
-This project was developed using React. It is a portfolio which allows the users to visualize the projects I have completed, to read a short description of my self, and to contact me. I have always pursued the SOLID's principles in order to have the cleanest code: every component has been carefully atomized and the code is easily understandable. The project is divided in components (header, footer, contact-form, etc), views (home page, about me and contact), a service -where I made a fetch of my JSON using AXIOS-, and assets (CV, fonts, music, and video). Puntualice that I made use of React DOM to route the different pages and Material UI to help me with the responsiveness. 
+This project was developed using React. It is a portfolio which allows the users to visualize the projects I have completed, to read a short description of my self, and to contact me. I have always pursued the SOLID's principles in order to have the cleanest code: every component has been carefully atomized and the code is easily understandable. The project is divided in components (header, footer, contact-form, etc), views (home page, about me and contact), a service -where I made a fetch of my JSON using AXIOS-, and assets (CV, fonts, music, and video). I would like to point out that I made use of React DOM to route the different pages and Material UI to help me with the responsiveness. 
 
 <h2>2. Features:</h2>
 
