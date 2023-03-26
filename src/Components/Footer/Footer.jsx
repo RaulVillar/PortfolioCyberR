@@ -16,6 +16,7 @@ export default function Footer() {
                     onClick={() => window.open('https://github.com/RaulVillar')}
                     level="body3"
                     underline="none"
+                    title="GitHub"
                     sx={{
                         color: "yellow",
                         fontWeight: "md",
@@ -26,6 +27,7 @@ export default function Footer() {
                     onClick={() => window.open('https://www.linkedin.com/in/raulvf/')}
                     level="body3"
                     underline="none"
+                    title="Linkedin"
                     sx={{
                         color: "yellow",
                         fontWeight: "md",
@@ -36,6 +38,7 @@ export default function Footer() {
                     to="/contact"
                     level="body3"
                     underline="none"
+                    title="Contact"
                     sx={{
                         color: "yellow",
                         fontWeight: "md",

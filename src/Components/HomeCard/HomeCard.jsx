@@ -126,6 +126,7 @@ export default function ActionAreaCard(props) {
             href={props.github}
             level="body3"
             underline="none"
+            title="GitHub"
             sx={{
               color: "white",
               fontWeight: "md",

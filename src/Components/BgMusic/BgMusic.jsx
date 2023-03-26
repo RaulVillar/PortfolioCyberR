@@ -24,7 +24,7 @@ function MusicPlayer() {
 
   return (
     <div>
-      <IconButton onClick={togglePlay}>
+      <IconButton title="Music Player" onClick={togglePlay}>
         {isPlaying ? <PauseCircleOutlineIcon style={{color: 'yellow', fontSize: 50}} /> : <PlayCircleOutlineIcon style={{color: 'yellow', fontSize: 50}}/>}
       </IconButton>
       <audio loop ref={audioRef} />
