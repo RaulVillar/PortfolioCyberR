@@ -4,6 +4,7 @@ import Contact from "./Pages/Contact/Contact";
 import AboutMe from "./Pages/AboutMe/AboutMe";
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import './index.css';
+import Header from "./Components/Header/Header";
 
 const theme = createTheme({
   typography: {
@@ -14,20 +15,29 @@ const theme = createTheme({
   }
 });
 
+const Layout = ({ children }) => {
+  return (
+    <>
+      <Header />
+      {children}
+    </>
+  );
+};
+
 function App() {
 
   const router = createBrowserRouter([{
     path: "/home",
-    element: <HomePage />
+    element: <Layout><HomePage /></Layout>
   }, {
     path: "/",
-    element: <HomePage />
+    element: <Layout><HomePage /></Layout>
   }, {
     path: "/contact",
-    element: <Contact />
+    element: <Layout><Contact /></Layout>
   }, {
-    path: "/aboutMe",
-    element: <AboutMe />
+    path: "/aboutme",
+    element: <Layout><AboutMe /></Layout>
   }
   ])
 

@@ -1,4 +1,3 @@
-import Header from "../../Components/Header/Header"
 import Footer from "../../Components/Footer/Footer"
 import React from 'react'
 import { useState, useEffect } from 'react';
@@ -23,7 +22,6 @@ export default function HomePage() {
   return (
     <>
       <BgVideo />
-      <Header />
       <Typography variant="h4" sx={{ color: "yellow", textAlign: 'center', marginTop: 3.2 }} >Projects</Typography >
       <Grid justifyContent="center" container columns={16}>
         {projects.map(item => (
