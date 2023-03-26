@@ -11,7 +11,7 @@ tiempo real. Ha sido realizado mediante el entorno de desarrollo (IDE) IntelliJ,
 <li>Completly responsive webpage for every device.</li>
 <li>Responsive navigation bar which, after reducing its size, it displays a hamburger menu -it makes it easier to navigate for mobile users-.</li>
 <li>Animated background image.</li>
-<li>An interactive icon which allows the user to play and pause the background cyberpunk-themed music.</li>
+<li>An interactive icon which allows the user to play and pause the cyberpunk-themed background music.</li>
 <li>Projects are displayed in cards: clicking the main image opens a gallery which allows the user to see the project in depth, there is also a "show more" button which, employing a modal, displays more information about the project. In addition, I have inclued a GitHub button for each card.</li>
 <li>About Me: it includes a short description of my self, a button to download my CV, and the stacks which I am specialized in.</li>
 <li>Contact: a completly functional form which works making use of this API "https://formspree.io" .</li>
