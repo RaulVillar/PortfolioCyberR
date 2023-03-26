@@ -51,10 +51,15 @@ Para instalar la aplicación deberéis seguir los pasos que describo a continuac
 
 <h2>6. Mock-up:</h2>
 
- <img width="895" alt="mock-up-HomePage" src="public/Pictures/Portfolio-HomePage.jpg";>
- <img width="895" alt="mock-up-AboutMe" src="public/Pictures/Portfolio-AboutMe.jpg";>
- <img width="895" alt="mock-up-Contact" src="public/Pictures/Portfolio-Contact.jpg";>
-
+ <h3>Home Page</h3>
+<img width="895" alt="mock-up-HomePage" src="public/Pictures/Portfolio-HomePage.jpg">
+ 
+ <h3>About Me</h3>
+<img width="895" alt="mock-up-AboutMe" src="public/Pictures/Portfolio-AboutMe.jpg">
+ 
+ <h3>Contact</h3>
+<img width="895" alt="mock-up-Contact" src="public/Pictures/Portfolio-Contact.jpg">
+ 
 <h2>12. Final Product</h2>
 
 <h3>Home Page</h3>
