@@ -5,7 +5,7 @@
 This project was built using React. It is a self-developed portfolio which allows users to visualize each project I have worked on, to read a hand-written description of my self, and to directly contact me using a form. 
 In this project I have pursued the SOLID's principles in order to have the cleanest code: every component was carefully atomized and the code is easily understandable. The project was divided in components (header, footer, contact-form, etc), views (home page, about me and contact), a service -where I made a fetch of my JSON using AXIOS-, and assets (CV, fonts, music, and video). I would like to point out that I made use of React DOM to route the different pages and Material UI to help me with the responsiveness. 
 
-<h2>2. Features:</h2>
+<h2>2. Features</h2>
 
 <ul>
 <li>Completly responsive webpage for every device.</li>
