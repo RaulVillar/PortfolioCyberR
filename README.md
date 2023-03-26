@@ -42,7 +42,7 @@ Para instalar la aplicación deberéis seguir los pasos que describo a continuac
   5. Compilar el proyecto. 
 
 
-<h2>5.Mock-up</h2>
+<h2>5. Mock-up</h2>
 
  <h3>Home Page</h3>
 <img width="895" alt="mock-up-HomePage" src="public/Pictures/Portfolio-HomePage.jpg">
@@ -53,7 +53,7 @@ Para instalar la aplicación deberéis seguir los pasos que describo a continuac
  <h3>Contact</h3>
 <img width="895" alt="mock-up-Contact" src="public/Pictures/Portfolio-Contact.jpg">
  
-<h2>6.Final Product</h2>
+<h2>6. Final Product</h2>
 
 <h3>Home Page</h3>
 <img width="895" alt="homepage" src="https://i.gyazo.com/c9e8d266e017af92f288388cfe5e8af4.jpg">
