@@ -55,14 +55,14 @@ Para instalar la aplicación deberéis seguir los pasos que describo a continuac
  
 <h2>6. Final Product</h2>
 
-<h3 style="text-align: center;">Home Page</h3>
-<img width="895" alt="homepage" src="https://i.gyazo.com/c9e8d266e017af92f288388cfe5e8af4.jpg" style="display: block; margin: 0 auto;">
+<h3>Home Page</h3>
+<img width="895" alt="homepage" src="https://i.gyazo.com/c9e8d266e017af92f288388cfe5e8af4.jpg">
 
-<h3 style="text-align: center;">About Me</h3>
-<img width="895" alt="aboutme" src="https://i.gyazo.com/45685b75747261141156dd4c51ac5777.jpg" style="display: block; margin: 0 auto;">
+<h3>About Me</h3>
+<img width="895" alt="aboutme" src="https://i.gyazo.com/45685b75747261141156dd4c51ac5777.jpg">
 
-<h3 style="text-align: center;">Contact</h3>
-<img width="895" alt="contact" src="https://i.gyazo.com/32f17f1fb6b9651da91641ed79f8dfb3.jpg" style="display: block; margin: 0 auto;">
+<h3>Contact</h3>
+<img width="895" alt="contact" src="https://i.gyazo.com/32f17f1fb6b9651da91641ed79f8dfb3.jpg">
 
 <h3>Mobile version</h3>
 <img width="400" alt="mobile-HomePage" src="public/Pictures/Mobile-HomePage.png";>
