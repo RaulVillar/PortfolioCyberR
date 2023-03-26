@@ -55,8 +55,8 @@ Para instalar la aplicación deberéis seguir los pasos que describo a continuac
 
 <h2>12. Final Product</h2>
 
-<h3>Página Principal</h3>
-<img width="895" alt="homepage1" src="https://github.com/Perezdh13/consultancy-project/blob/main/src/main/resources/static/images/Captura%20de%20pantalla%202023-03-17%20114108.png">
+<h3>Home Page</h3>
+<img width="895" alt="homepage" src="https://i.gyazo.com/c9e8d266e017af92f288388cfe5e8af4.jpg">
 
 
 <h3>Formulario</h3>
