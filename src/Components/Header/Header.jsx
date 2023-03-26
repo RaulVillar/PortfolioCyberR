@@ -95,7 +95,7 @@ export default function Header() {
               display: { xs: 'flex', md: 'none' },
               flexGrow: 1,
               fontFamily: 'Alien',
-              fontSize: 25,
+              fontSize: 21.5,
               letterSpacing: '.3rem',
               color: 'inherit',
               textDecoration: 'none',
