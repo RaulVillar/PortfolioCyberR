@@ -1,9 +1,8 @@
 <h1 align="center">Cyber's Raúl Portfolio®</h1>
 
-<h2>1. Descripción del proyecto:</h2>
+<h2>1. Description</h2>
 
-Este proyecto desarollado en Java, mediante Spring Boot y Thymeleaf, nos permite visualizar, añadir, eliminar y actualizar (CRUD) consultas en una base de datos a 
-tiempo real. Ha sido realizado mediante el entorno de desarrollo (IDE) IntelliJ, utilizando el denominado patrón de arquitectura modelo-vista-controlador, y empleando el sistema de gestión de base de datos de MySQL XAMPP / Workbench, donde se ha generado la tabla en la cual se almacena la información. 
+This project was developed using React. It is a portfolio which allows the users to visualize the projects I have completed, to read a short description of my self, and to contact me. I have always pursued the SOLID's principles in order to have the cleanest code: every component has been carefully atomized and the code is easily understandable. The project is divided in components (header, footer, contact-form, etc), views (home page, about me and contact), a service -where I made a fetch of my JSON using AXIOS-, and assets (CV, fonts, music, and video). Puntualice that I made use of React DOM to route the different pages and Material UI to help me with the responsiveness. 
 
 <h2>2. Features:</h2>
 
