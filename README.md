@@ -71,8 +71,8 @@ Para instalar la aplicación deberéis seguir los pasos que describo a continuac
  <img width="400" alt="mobile-Contact" src="public/Pictures/Mobile-Contact.png";>
 
 <h3>Tablet version</h3>
-<img width="400" alt="mobile" src="public/Pictures/Tablet-HomePage.png";>
- <img width="400" alt="mobile" src="public/Pictures/Tablet-AboutMe.png";>
- <img width="400" alt="mobile" src="public/Pictures/Tablet-Contact.png";>
+<img width="800" alt="mobile" src="public/Pictures/Tablet-HomePage.png";>
+ <img width="800" alt="mobile" src="public/Pictures/Tablet-AboutMe.png";>
+ <img width="800" alt="mobile" src="public/Pictures/Tablet-Contact.png";>
 
 
