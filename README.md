@@ -66,7 +66,7 @@ Para instalar la aplicación deberéis seguir los pasos que describo a continuac
 <img width="895" alt="contact" src="https://i.gyazo.com/32f17f1fb6b9651da91641ed79f8dfb3.jpg">
 
 <h3>Mobile Version</h3>
-<img width="400" alt="tablet" src="https://i.gyazo.com/2bad1735076f726280812c28b8153cbb.png">
+<img width="400" alt="mobile-HomePage" src="public/Pictures/Mobile-HomePage.png">
 
 <h3>Versión móvil</h3>
 <img width="400" alt="mobile" src="https://i.gyazo.com/2aa7c9fcc98aa079ec5bee4fda916121.png">
