@@ -67,7 +67,7 @@ Para instalar la aplicación deberéis seguir los pasos que describo a continuac
 
 <h3>Mobile Version</h3>
 <img width="400" alt="mobile-HomePage" src="public/Pictures/Mobile-HomePage.png">
- <img width="400" alt="mobile-AboutMe" src="public/Pictures/Mobile-AboutMe.png">
+ <img width="400" style={{m: "5"}}alt="mobile-AboutMe" src="public/Pictures/Mobile-AboutMe.png">
  <img width="400" alt="mobile-Contact" src="public/Pictures/Mobile-Contact.png">
 
 <h3>Versión móvil</h3>
