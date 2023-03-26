@@ -17,14 +17,7 @@ en pantalla. Posteriormente debemos de presionar el botón de enviar. </li>
 edición de nuestra consulta únicamente debemos presionar el botón de actualizar.</li>
 </ul>
 
-<h2>3. Fullstack Developer Team 💻</h2>
-
-- [Pablo Pérez](https://github.com/Perezdh13)- Product Owner
-- [Raúl Villar](https://github.com/RaulVillar)- Scrum Master
-- [Carlos Sánchez](https://github.com/Holapueblodev)- Developer
-- [Lucía Tirado](https://github.com/Luciatt) - Developer
-
-<h2>4. Stack 🛠️⚙️</h2>
+<h2>3. Stack 🛠️⚙️</h2>
 
 <div width="400" height="400" style="display:flex" style="margin-left:50" >
  <img style="display: flex-wrap" align="center"  height="24" width="auto" alt="IntelliJIDEA" src="https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white"/>
@@ -38,7 +31,7 @@ edición de nuestra consulta únicamente debemos presionar el botón de actualiz
 <img style="display: flex-wrap" align="center"  height="24" width="auto" alt="Git" src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white"/>  
   <img style="display: flex-wrap" align="center"  height="24" width="auto" alt="Jira" src="https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white"/>
 
-<h2>5. Instalación de nuestro proyecto ⚗️🧪</h2>
+<h2>4. Instalación de nuestro proyecto ⚗️🧪</h2>
 
 Para instalar la aplicación deberéis seguir los pasos que describo a continuación:
 
@@ -49,7 +42,7 @@ Para instalar la aplicación deberéis seguir los pasos que describo a continuac
   5. Compilar el proyecto. 
 
 
-<h2>6. Mock-up:</h2>
+<h2>5.Mock-up</h2>
 
  <h3>Home Page</h3>
 <img width="895" alt="mock-up-HomePage" src="public/Pictures/Portfolio-HomePage.jpg">
@@ -60,7 +53,7 @@ Para instalar la aplicación deberéis seguir los pasos que describo a continuac
  <h3>Contact</h3>
 <img width="895" alt="mock-up-Contact" src="public/Pictures/Portfolio-Contact.jpg">
  
-<h2>12. Final Product</h2>
+<h2>6.Final Product</h2>
 
 <h3>Home Page</h3>
 <img width="895" alt="homepage" src="https://i.gyazo.com/c9e8d266e017af92f288388cfe5e8af4.jpg">
