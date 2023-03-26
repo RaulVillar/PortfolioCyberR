@@ -56,7 +56,7 @@ export default function ActionAreaCard(props) {
       }
     }}>
       <CardActionArea>
-        <CardMedia onClick={() => setIsOpen(true)} sx={{ width: "auto", p: 4, borderRadius: '50px' }}
+        <CardMedia onClick={() => setIsOpen(true)} sx={{ width: 320, p: 4, borderRadius: '50px' }}
           component="img"
           height='200'
           image={props.mainImg}
