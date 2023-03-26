@@ -27,6 +27,7 @@ edición de nuestra consulta únicamente debemos presionar el botón de actualiz
 <img style="display: flex-wrap" align="center"  height="24" width="auto" alt="JavaScript" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
 <img style="display: flex-wrap" align="center"  height="24" width="auto" alt="Material UI" src="https://img.shields.io/badge/Material%20UI-007FFF?style=for-the-badge&logo=mui&logoColor=white"/>
 <img style="display: flex-wrap" align="center"  height="24" width="auto" alt="React" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+<img style="display: flex-wrap" align="center"  height="24" width="auto" alt="Json" src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white"/>
 <img style="display: flex-wrap" align="center"  height="24" width="auto" alt="Git" src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white"/>  
 <img style="display: flex-wrap" align="center"  height="24" width="auto" alt="Jira" src="https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white"/>
 
@@ -44,7 +45,7 @@ Para instalar la aplicación deberéis seguir los pasos que describo a continuac
 <h2>5. Mock-up</h2>
 
 <h3>Home Page</h3>
-<img width="895" alt="mock-up-HomePage" src="public/Pictures/Portfolio-HomePage.jpg" style="display: block; margin: 0 auto;">
+<img  style="display: flex-wrap" align="center" width="895" alt="mock-up-HomePage" src="public/Pictures/Portfolio-HomePage.jpg" style="display: block; margin: 0 auto;">
 
 <h3>About Me</h3>
 <img width="895" alt="mock-up-AboutMe" src="public/Pictures/Portfolio-AboutMe.jpg" style="display: block; margin: 0 auto;">
