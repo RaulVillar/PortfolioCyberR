@@ -31,16 +31,9 @@ edición de nuestra consulta únicamente debemos presionar el botón de actualiz
 <img style="display: flex-wrap" align="center"  height="24" width="auto" alt="Git" src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white"/>  
 <img style="display: flex-wrap" align="center"  height="24" width="auto" alt="Jira" src="https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white"/>
 
-<h2>4. Instalación de nuestro proyecto ⚗️🧪</h2>
+<h2>4. Deployment ⚗️🧪</h2>
 
-Para instalar la aplicación deberéis seguir los pasos que describo a continuación:
-
-  1. Hacer un clon del repositorio en vuestro escritorio.
-  2. Abrir el archivo mediante IntelliJ.
-  3. Descargar XAMPP o Workbench para generar un servidor local. 
-  4. Incorporar los datos de tu servidor en el archivo application.properties (url con el nombre de tu base de datos, nombre de usuario y contraseña).
-  5. Compilar el proyecto. 
-
+The deployment was made using vercel: https://portfolio-cyber-r.vercel.app
 
 <h2>5. Mock-up</h2>
 
