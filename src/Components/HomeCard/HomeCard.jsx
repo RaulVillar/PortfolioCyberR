@@ -38,11 +38,12 @@ export default function ActionAreaCard(props) {
 
   const [isOpen, setIsOpen] = useState(false);
   const [open, setOpen] = React.useState(false);
+  
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
 
   return (
-    <Card spacing={4} elevation={3} sx={{
+    <Card sx={{
       bgcolor: 'rgba(84, 0, 0, 0.83)',
       Height: 600,
       maxWidth: 400,
@@ -65,6 +66,7 @@ export default function ActionAreaCard(props) {
           open={isOpen}
           close={() => setIsOpen(false)}
           plugins={[Zoom]}
+          closeOnBackdropClick={() => setIsOpen(false)}
           slides={[
             {
               src: props.mainImg,

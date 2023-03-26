@@ -23,7 +23,7 @@ export default function HomePage() {
     <>
       <BgVideo />
       <Typography variant="h4" sx={{ color: "yellow", textAlign: 'center', marginTop: 3.2 }} >Projects</Typography >
-      <Grid justifyContent="center" container columns={16}>
+      <Grid justifyContent="center" container>
         {projects.map(item => (
           <Grid sx={{ mt: 6 }} key={item.id}>
             <HomeCards
