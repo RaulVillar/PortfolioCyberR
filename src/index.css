@@ -16,4 +16,9 @@
 
 body {
   background-color: rgba(18, 18, 19, 1);
+  position: relative
+}
+
+html, body {
+  overflow-x: hidden;
 }
