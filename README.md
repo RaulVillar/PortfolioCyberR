@@ -50,7 +50,7 @@ The deployment was made using vercel: https://portfolio-cyber-r.vercel.app
 <h2>6. Final Product</h2>
 
 <h3>Home Page</h3>
-<img width="895" alt="homepage" src="public/Pictures/PortfolioD-HomePage.png">
+<img width="895" alt="homepage" src="public/Pictures/PortfolioD-HomePage.jpg">
 
 <h3>About Me</h3>
 <img width="895" alt="aboutme" src="public/Pictures/PortfolioD-AboutMe.jpg">
