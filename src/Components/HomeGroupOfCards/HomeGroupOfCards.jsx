@@ -22,7 +22,7 @@ export default function HomeGroupOfCards() {
     return (
         <div>
             <Typography variant="h4" sx={{ color: "yellow", textAlign: 'center', marginTop: 3.2 }} >Projects</Typography >
-            <Grid justifyContent="center" container>
+            <Grid sx={{justifyContent: "center"}} container>
                 {projects.map(item => (
                     <Grid sx={{ mt: 6 }} key={item.id}>
                         <HomeCards
