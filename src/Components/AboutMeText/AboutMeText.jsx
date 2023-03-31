@@ -14,7 +14,7 @@ export default function AboutMeText() {
           paths -always applying the active learning pedagogy and agile methodology principles-. <br></br><br></br>
           I am immensely interested in finding my first job experience in the IT’s world so I can continue expanding my understanding -discovering new tools and capabilities which allow me to
           improve as a programmer-. After having completed a wide variety of projects -both individually and in team-, where I have always applied the clean code and SOLID principles, I am totally
-          ready to share my wisdom and soft skills to any business which could be interested on hiring me. Check out my curriculum y portfolio's read-me:
+          ready to share my wisdom and soft skills to any business which could be interested on hiring me. Check out my curriculum and portfolio's read-me:
         </Typography>
         <Button href={Pdf} download="CV_RaulVF" sx={{ fontFamily: 'poppins', marginTop: 2, transition: 'transform 0.2s ease-out', marginRight: 2, backgroundColor: "yellow", color: "black", "&:hover": { backgroundColor: "yellow", transform: 'translateY(-4px)' } }} variant="contained" >Download CV</Button>
         <Button onClick={() => window.open('https://github.com/RaulVillar/PortfolioCyberR')} sx={{ fontFamily: 'poppins', marginTop: 2, transition: 'transform 0.2s ease-out', backgroundColor: "yellow", color: "black", "&:hover": { backgroundColor: "yellow", transform: 'translateY(-4px)' } }} variant="contained" >Portfolio's Read-me</Button>
