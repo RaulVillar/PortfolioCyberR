@@ -1,64 +1,74 @@
 {
     "projects": [
-        {
-            "id": 1,
-            "name": "Tenebris Tattoo",
-            "technologies": "HTML5, CSS3",
-            "description": "Tennebris Tattoo Studio was one of my first approaches to programming, it is a replica from an official template, an exercise of HTML and CSS.",
-            "mainImg": "/Pictures/TenebrisTattooStudio-HomeP.jpg",
-            "secondaryImg": "/Pictures/TenebrisTattooStudio-AboutUs.png",
-            "tertiaryImg": "/Pictures/TenebrisTattooStudio-OurWorks.png",
-            "github": "https://github.com/RaulVillar/TattooShop-Replica-"
-        },
-        {
-            "id": 2,
-            "name": "Japon Sweets",
-            "technologies": "HTML5, CSS3, JavaScript.",
-            "description": "Japon Sweets is a completly functional e-commerce where clients can buy a wide variety of japanese sweets. Features: it uses a hand-made local JSON to display the items, it has a working shopping cart which makes use of the local storage to display your items even after reloading the webpage, and it is mobile responsive. ",
-            "mainImg": "/Pictures/JapanSweets.png",
-            "secondaryImg": "/Pictures/JapanSweets-Cart.png",
-            "tertiaryImg": "/Pictures/JapanSweets-Cart2.png",
-            "github": "https://github.com/RaulVillar/E-commerce"
-        },
-        {
-            "id": 3,
-            "name": "Sakura Tarot",
-            "technologies": "HTML5, CSS3, React.js.",
-            "description": "Sakura Tarot is a simple webpage project in which users are able to play an adivination game where they can get to know their past, present, and future. We have used an API to display the cards.",
-            "mainImg": "/Pictures/SakuraTarot.png",
-            "secondaryImg": "/Pictures/SakuraTarot-Secondary.png",
-            "tertiaryImg": "/Pictures/SakuraTarot-MobileResponsive.png",
-            "github": "https://github.com/RaulVillar/Sakura-Tarot-RC"
-        },
-        {
-            "id": 4,
-            "name": "Cyber To Do List",
-            "technologies": "HTML5, CSS3, React.js.",
-            "description": "Cyber To Do List is a cyberpunk-themed project where users are able to introduce, read, and delete their tasks.",
-            "mainImg": "/Pictures/CyberToDoList.png",
-            "secondaryImg": "/Pictures/CyberToDoList-Scheme.jpg",
-            "tertiaryImg": "/Pictures/CyberToDoList-Mobile.png",
-            "github": "https://github.com/RaulVillar/CyberToDoList"
-        },
-        {
-            "id": 5,
-            "name": "Above The Stars",
-            "technologies": "HTML5, CSS3, React.js.",
-            "description": "Above The Stars was a project created during the Factoria's F5 Hackathon and thought as a future science-fiction marketplace where clients would be able to buy and sell starts and constellations. It has a functional product searcher and contact form.",
-            "mainImg": "/Pictures/AboveTheStars-HomePage.jpg",
-            "secondaryImg": "/Pictures/AboveTheStars-Contact.jpg",
-            "tertiaryImg": "/Pictures/AboveTheStars-AtomicDesign.png",
-            "github": "https://github.com/RaulVillar/AboveTheSky"
-        },
-        {
-            "id": 6,
-            "name": "Consulting Room",
-            "technologies": "Java, Spring Boot, Thymeleaf",
-            "description": "Consulting Room is a webpage CRUD-based where users are able to introduce, read, edit, and delete their consultations. Making use of the software architectural pattern model-view-controller, we have developed a CRUD using Spring Boot and a front-end employing Thymeleaf in conjunction with Bootstrap -which helped us making the webpage responsive-.",
-            "mainImg": "/Pictures/ConsultancyProject.png",
-            "secondaryImg": "/Pictures/ConsultancyProject-Add.jpg",
-            "tertiaryImg": "/Pictures/ConsultancyProject-MobileResponsive.png",
-            "github": "https://github.com/Perezdh13/consultancy-project"
-        }
+      {
+        "id": 1,
+        "name": "Tenebris Tattoo",
+        "technologies": "HTML5, CSS3",
+        "description": "Tennebris Tattoo Studio was one of my first approaches to programming, it is a replica from an official template, an exercise of HTML and CSS.",
+        "mainImg": "/Pictures/TenebrisTattooStudio-HomeP.jpg",
+        "secondaryImg": "/Pictures/TenebrisTattooStudio-AboutUs.png",
+        "tertiaryImg": "/Pictures/TenebrisTattooStudio-OurWorks.png",
+        "github": "https://github.com/RaulVillar/TattooShop-Replica-"
+      },
+      {
+        "id": 2,
+        "name": "Japon Sweets",
+        "technologies": "HTML5, CSS3, JavaScript",
+        "description": "Japon Sweets is a completly functional e-commerce where clients can buy a wide variety of japanese sweets. Features: it uses a hand-made local JSON to display the items, it has a working shopping cart which makes use of the local storage to display your items even after reloading the webpage, and it is mobile responsive. ",
+        "mainImg": "/Pictures/JapanSweets.png",
+        "secondaryImg": "/Pictures/JapanSweets-Cart.png",
+        "tertiaryImg": "/Pictures/JapanSweets-Cart2.png",
+        "github": "https://github.com/RaulVillar/E-commerce"
+      },
+      {
+        "id": 3,
+        "name": "Sakura Tarot",
+        "technologies": "HTML5, CSS3, React",
+        "description": "Sakura Tarot is a simple webpage project in which users are able to play an adivination game where they can get to know their past, present, and future. We have used an API to display the cards.",
+        "mainImg": "/Pictures/SakuraTarot.png",
+        "secondaryImg": "/Pictures/SakuraTarot-Secondary.png",
+        "tertiaryImg": "/Pictures/SakuraTarot-MobileResponsive.png",
+        "github": "https://github.com/RaulVillar/Sakura-Tarot-RC"
+      },
+      {
+        "id": 4,
+        "name": "Cyber To Do List",
+        "technologies": "HTML5, CSS3, React",
+        "description": "Cyber To Do List is a cyberpunk-themed project where users are able to introduce, read, and delete their tasks.",
+        "mainImg": "/Pictures/CyberToDoList.png",
+        "secondaryImg": "/Pictures/CyberToDoList-Scheme.jpg",
+        "tertiaryImg": "/Pictures/CyberToDoList-Mobile.png",
+        "github": "https://github.com/RaulVillar/CyberToDoList"
+      },
+      {
+        "id": 5,
+        "name": "Above The Stars",
+        "technologies": "HTML5, CSS3, React",
+        "description": "Above The Stars was a project created during the Factoria's F5 Hackathon and thought as a future science-fiction marketplace where clients would be able to buy and sell starts and constellations. It has a functional product searcher and contact form.",
+        "mainImg": "/Pictures/AboveTheStars-HomePage.jpg",
+        "secondaryImg": "/Pictures/AboveTheStars-Contact.jpg",
+        "tertiaryImg": "/Pictures/AboveTheStars-AtomicDesign.png",
+        "github": "https://github.com/RaulVillar/AboveTheSky"
+      },
+      {
+        "id": 6,
+        "name": "Consulting Room",
+        "technologies": "Java, Spring Boot, Thymeleaf",
+        "description": "Consulting Room is a webpage CRUD-based where users are able to introduce, read, edit, and delete their consultations. Making use of the software architectural pattern model-view-controller, we have developed a CRUD using Spring Boot and a front-end employing Thymeleaf in conjunction with Bootstrap -which helped us making the webpage responsive-.",
+        "mainImg": "/Pictures/ConsultancyProject.png",
+        "secondaryImg": "/Pictures/ConsultancyProject-Add.jpg",
+        "tertiaryImg": "/Pictures/ConsultancyProject-MobileResponsive.png",
+        "github": "https://github.com/Perezdh13/consultancy-project"
+      },
+      {
+        "id": 7,
+        "name": "Cartoon Voices",
+        "technologies": "React, Bootstrap, Spring Boot",
+        "description": "Cartoon Voices is a genuine marketplace focused on animation characters voice actors, where users have the opportunity to hire their voices for custom messages. Technically, the main objective was developing a back-end API with Spring Boot which worked in conjuction with our front-end. You can create, read, update, and delete your publications.",
+        "mainImg": "/Pictures/CartoonVoices-Cards.png",
+        "secondaryImg": "/Pictures/CartoonVoices-Mobile.png",
+        "tertiaryImg": "/Pictures/CartoonVoices-Create.png",
+        "github": "https://github.com/RaulVillar/Cartoon-Voices-Marketplace/tree/dev"
+      }
     ]
-}
+  }

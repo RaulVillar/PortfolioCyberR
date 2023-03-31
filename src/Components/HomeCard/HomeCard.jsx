@@ -6,7 +6,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
 import IconButton from '@mui/material/IconButton';
-import Favorite from "@mui/icons-material/Favorite";
+import Grid from '@mui/material/Unstable_Grid2';
 import Box from "@mui/joy/Box";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import Button from '@mui/material/Button';
@@ -38,7 +38,7 @@ export default function ActionAreaCard(props) {
 
   const [isOpen, setIsOpen] = useState(false);
   const [open, setOpen] = React.useState(false);
-  
+
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
 
@@ -93,7 +93,7 @@ export default function ActionAreaCard(props) {
             {props.Title}
           </Typography>
         </CardContent>
-        <Button sx={{ mx: 4, color: "yellow" }} onClick={handleOpen}>Show More</Button>
+        <Button variant="outlined" sx={{ mx: 4, fontSize: '13px', transition: 'transform 0.2s ease-out', borderWidth: '1px', color: "yellow", borderColor: "yellow", '&:hover': { borderColor: 'yellow', transform: 'translateY(-4px)' } }} onClick={handleOpen}>Show More</Button>
         <Modal
           open={open}
           onClose={handleClose}
@@ -112,29 +112,20 @@ export default function ActionAreaCard(props) {
             </Typography>
           </Box>
         </Modal>
-        <Box sx={{ display: "flex", mt: "auto", mx: 3 }}>
-          <IconButton
-            href="#dribbble-shot"
-            level="body3"
-            underline="none"
-            sx={{
-              color: "white",
-              fontWeight: "md",
-              ml: "auto",
-              "&:hover": { color: 'yellow' },
-            }}
-          ><Favorite /></IconButton>
+        <Box sx={{ display: 'flex', justifyContent: 'flex-end' }}>
           <IconButton
             href={props.github}
             level="body3"
             underline="none"
             title="GitHub"
             sx={{
-              color: "white",
-              fontWeight: "md",
-              "&:hover": { color: 'yellow' },
+              color: 'white',
+              fontWeight: 'md',
+              '&:hover': { color: 'yellow' },
+              mr: 3
             }}
-          ><GitHubIcon /></IconButton>
+          >
+            <GitHubIcon /></IconButton>
         </Box>
       </CardActionArea>
     </Card>
