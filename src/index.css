@@ -17,8 +17,10 @@
 body {
   background-color: rgba(18, 18, 19, 1);
   position: relative;
+  padding-right: 0px !important;
 }
 
 html, body {
   overflow-x: hidden;
 }
+

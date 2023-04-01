@@ -6,7 +6,6 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
 import IconButton from '@mui/material/IconButton';
-import Grid from '@mui/material/Unstable_Grid2';
 import Box from "@mui/joy/Box";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import Button from '@mui/material/Button';
@@ -33,7 +32,6 @@ const style = {
   boxShadow: 24,
   padding: "2rem",
 };
-
 export default function ActionAreaCard(props) {
 
   const [isOpen, setIsOpen] = useState(false);

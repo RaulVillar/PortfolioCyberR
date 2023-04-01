@@ -19,9 +19,9 @@ export default function HomeGroupOfCards() {
     useEffect(() => { callGetProjects() }, []);
 
     return (
-        <div>
+        <>
             <Typography variant="h4" sx={{ color: "yellow", textAlign: 'center', marginTop: 3.2 }} >Projects</Typography >
-            <Grid sx={{ justifyContent: "center", alignItems: "center" }} container>
+            <Grid sx={{ justifyContent: "center" }} container>
                 {projects.map(item => (
                     <Grid sx={{ mt: 6 }} key={item.id}>
                         <HomeCards
@@ -37,6 +37,6 @@ export default function HomeGroupOfCards() {
                 ))}
             </Grid>
             <ScrollButton />
-        </div>
+        </>
     )
 }
