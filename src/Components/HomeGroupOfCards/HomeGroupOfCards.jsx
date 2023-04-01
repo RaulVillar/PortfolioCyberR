@@ -4,6 +4,7 @@ import HomeCards from "../../Components/HomeCard/HomeCard";
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 import CallAxios from '../../Services/CallAxios';
+import ScrollButton from '../ScrollButton/ScrollButton';
 
 export default function HomeGroupOfCards() {
 
@@ -35,6 +36,7 @@ export default function HomeGroupOfCards() {
                     </Grid>
                 ))}
             </Grid>
+            <ScrollButton />
         </div>
     )
 }

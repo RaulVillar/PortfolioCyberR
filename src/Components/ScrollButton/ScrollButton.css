@@ -1,0 +1,8 @@
+.arrow-up {
+    position: fixed;
+    font-size: 50px !important;
+    bottom: 30px;
+    right: 6.5vw;
+    cursor: pointer;
+    color: yellow;
+}
