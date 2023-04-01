@@ -5,8 +5,6 @@ import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 import CallAxios from '../../Services/CallAxios';
 
-
-
 export default function HomeGroupOfCards() {
 
     const [projects, setProjects] = useState([]);
@@ -22,7 +20,7 @@ export default function HomeGroupOfCards() {
     return (
         <div>
             <Typography variant="h4" sx={{ color: "yellow", textAlign: 'center', marginTop: 3.2 }} >Projects</Typography >
-            <Grid sx={{justifyContent: "center"}} container>
+            <Grid sx={{ justifyContent: "center", alignItems: "center" }} container>
                 {projects.map(item => (
                     <Grid sx={{ mt: 6 }} key={item.id}>
                         <HomeCards
