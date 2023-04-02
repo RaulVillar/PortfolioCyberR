@@ -74,7 +74,7 @@
       "id": 8,
       "name": "Back-end API",
       "technologies": "Java, Spring Boot, Postman",
-      "description": "This project consists of an API, in which we have made use of the software architectural pattern model-view-controller, to develop a CRUD. Developed with IntelliJ, it generates a table in our local XAMPP server. In addition, we have tested the methods using Postman.",
+      "description": "This project consists of an API, in which we have made use of the software architectural pattern model-view-controller to develop a CRUD. Made with IntelliJ, it generates a table and storages the data in our local MySQL server -lifted using XAMPP-. In addition, we have tested the methods using Postman.",
       "mainImg": "/Pictures/API-Controller.png",
       "secondaryImg": "/Pictures/API-Model.png",
       "tertiaryImg": "/Pictures/API-Postman.png",
