@@ -14,7 +14,7 @@ In this project I have pursued the SOLID's principles in order to have the clean
 <li>An interactive icon which allows the user to play and pause the cyberpunk-themed background music.</li>
 <li>Projects are displayed in cards: clicking the main image opens a gallery which allows the user to see the project in depth -it uses Lightbox-, there is also a "show more" button which, using a modal, displays more information about the project. In addition, I have inclued a GitHub button for each card.</li>
 <li>About Me: it includes a short description of my self, a button to download my CV, and the stacks which I am specialized in.</li>
-<li>Contact: a completly functional form which works making use of this API "https://formspree.io" .</li>
+<li>Contact: a completely functional form which works making use of this API "https://formspree.io" .</li>
 </ul>
 
 <h2>3. Stack 🛠️⚙️</h2>
