@@ -8,7 +8,7 @@ In this project I have pursued the SOLID's principles in order to have the clean
 <h2>2. Features</h2>
 
 <ul>
-<li>Completly responsive webpage for every device.</li>
+<li>Completely responsive webpage for every device.</li>
 <li>Responsive navigation bar which, after reducing its size, it displays a hamburger menu -it makes it easier to navigate for mobile users-.</li>
 <li>Animated background image.</li>
 <li>An interactive icon which allows the user to play and pause the cyberpunk-themed background music.</li>
