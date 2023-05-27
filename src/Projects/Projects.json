@@ -79,6 +79,16 @@
       "secondaryImg": "/Pictures/API-Model.png",
       "tertiaryImg": "/Pictures/API-Postman.png",
       "github": "https://github.com/RaulVillar/api-rest"
+    },
+    {
+      "id": 9,
+      "name": "Es Tan Fácil",
+      "technologies": "React, Tailwind, Spring Boot & Spring Boot Security",
+      "description": "So far it is our most ambicious project made during a month for a real stakeholder who was interested in a webpage for his non-lucrative campaign. It was developed using React, in combination with Tailwind, and Jest to test our components. We used Axios to connect our front-end with our back-end. The back-end was made using Java (Spring Boot and Spring Boot Security) and JUnit5 to test our methods (It has an 83% coverage). It has a functional login with token and several CRUDs for the administrator.",
+      "mainImg": "/Pictures/EsTanFácil.png",
+      "secondaryImg": "https://www.webmobilefirst.com/en/screencasts/-U3X7Uvq8C/",
+      "tertiaryImg": "/Pictures/EsTanFácilAdmin.png",
+      "github": "https://github.com/Es-Tan-Facil"
     }
   ]
 }
